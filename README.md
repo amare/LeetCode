@@ -12,6 +12,7 @@ Solutions and resources for LeetCode problems.&hearts;
 |4|[Median of Two Sorted Arrays][4]|[C](004_Median_of_Two_Sorted_Arrays/median_of_two_sorted_arrays.h)|hard|2017/03/02|
 |5|[Longest Palindromic Substring][5]|[C++](005_Longest_Palindromic_Substring/longest_palindromic_substring.h)|Medium|2017/03/03|
 |7|[Reverse Integer][7]|[C++](007_Reverse_Integer/reverse_integer.cc)|Easy|2017/03/02|
+|8|[String to Integer(atoi)][8]|[C++](008_String_to_Integer(atoi)/string_to_integer(atoi).h)|Medium|2017/03/04|
 |13|[Roman to Integer][13]|[C++](013_Roman_to_Integer/roman_to_integer.h)|Easy|2017/03/02|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 
@@ -22,5 +23,6 @@ Solutions and resources for LeetCode problems.&hearts;
 [4]:https://leetcode.com/problems/median-of-two-sorted-arrays
 [5]:https://leetcode.com/articles/longest-palindromic-substring
 [7]:https://leetcode.com/problems/reverse-integer
+[8]:https://leetcode.com/problems/string-to-integer-atoi
 [13]:https://leetcode.com/problems/roman-to-integer
 [66]:https://leetcode.com/problems/plus-one
