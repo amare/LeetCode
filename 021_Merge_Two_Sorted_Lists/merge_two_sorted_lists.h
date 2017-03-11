@@ -72,4 +72,21 @@ public:
         if(l1) l1->next = mergeTwoLists_3(l1->next, l2);
         return l1;
     }
+
+    ListNode* mergeTwoLists_4(ListNode* l1, ListNode* l2)
+    {
+        ListNode head(INT_MIN);
+        head.next = l1;
+        ListNode *cur = &head;
+
+        while(l2)
+        {
+            while(cur->next && cur->next->val <= l2->val) cur = cur->next;
+            l1 = cur->next;
+            cur->next = l2;
+            l2 = l1;
+        }
+
+        return head.next;
+    }
 };
