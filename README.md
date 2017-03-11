@@ -19,6 +19,10 @@ Solutions and resources for LeetCode problems.&hearts;
 |14|[Longest Common Prefix][14]|[C++](014_Longest_Common_Prefix/longest_common_prefix.h)|Easy|2017/03/09|
 |15|[3Sum][15]|[C++](015_3Sum/3sum.h)|Medium|2017/03/10|
 |17|[Letter Combinations of a Phone Number][17]|[C++](017_Letter_Combinations_of_a_Phone_Number/letter_combinations_of_a_phone_number.h)|Medium|2017/03/11|
+|19|[Remove Nth Node From End of List][19]|[C++](019_Remove_Nth_Node_From_End_of_List/remove_n_th_node_from_end_of_list.h)|Medium|2017/03/11|
+|20|[Valid Parentheses][20]|[C++](020_Valid_Parentheses/valid_parentheses.h)|Easy|2017/03/11|
+|21|[Merge Two Sorted Lists][21]|[C++](021_Merge_Two_Sorted_Lists/merge_two_sorted_lists.h)|Easy|2017/03/11|
+|22|[Generate Parentheses][22]|[C++](022_Generate_Parentheses/generate_parentheses.h)|Medium|2017/03/11|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
 
@@ -36,5 +40,9 @@ Solutions and resources for LeetCode problems.&hearts;
 [14]:https://leetcode.com/problems/longest-common-prefix
 [15]:https://leetcode.com/problems/3sum
 [17]:https://leetcode.com/problems/letter-combinations-of-a-phone-number
+[19]:https://leetcode.com/problems/remove-nth-node-from-end-of-list
+[20]:https://leetcode.com/problems/valid-parentheses
+[21]:https://leetcode.com/problems/merge-two-sorted-lists
+[22]:https://leetcode.com/problems/generate-parentheses
 [66]:https://leetcode.com/problems/plus-one
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
