@@ -1,7 +1,7 @@
 /*
  Author:            cuckoo
  Date:              2017/03/11 19:54:00
- Update:
+ Update:            2017/03/11 20:23:26
  Problem:           Merge Two Sorted Lists
  Difficulty:        Easy
  Source:            https://leetcode.com/problems/merge-two-sorted-lists
@@ -9,6 +9,9 @@
  */
 
 #include <cstddef>  // for NULL
+#include <climits>  // for INT_MIN
+#include <algorithm>    // for swap()
+using std::swap;
 
 // Definition for singly-linked list.
 struct ListNode {
@@ -24,33 +27,49 @@ public:
 
     ListNode* mergeTwoLists_1(ListNode* l1, ListNode* l2)
     {
-        ListNode *l1_cur = l1, *l2_cur = l2;
-        ListNode *head = new ListNode(-1);
-        ListNode *tail = head;
-        while(l1_cur != NULL && l2_cur != NULL)
+        ListNode head(INT_MIN);
+        ListNode *tail = &head;
+        while(l1 && l2)
         {
-            if(l1_cur->val <= l2_cur->val)
+            if(l1->val <= l2->val)
             {
-                tail->next = l1_cur;
-                tail = tail->next;
-                l1_cur = l1_cur->next;
+                tail->next = l1;
+                l1 = l1->next;
             }
             else
             {
-                tail->next = l2_cur;
-                tail = tail->next;
-                l2_cur = l2_cur->next;
+                tail->next = l2;
+                l2 = l2->next;
             }
+            tail = tail->next;
         }
 
+        tail->next = l1 ? l1 : l2;
 
-        if(NULL == l1_cur)
-            tail->next = l2_cur;
-        else if(NULL == l2_cur)
-            tail->next = l1_cur;
+        return head.next;
+    }
+
+    ListNode* mergeTwoLists_2(ListNode* l1, ListNode* l2)
+    {
+        if(l1 == NULL) return l2;
+        if(l2 == NULL) return l1;
+
+        if(l1->val <= l2->val)
+        {
+            l1->next = mergeTwoLists_2(l1->next, l2);
+            return l1;
+        }
         else
-            return NULL;
+        {
+            l2->next = mergeTwoLists_2(l2->next, l1);
+            return l2;
+        }
+    }
 
-        return head->next;
+    ListNode* mergeTwoLists_3(ListNode* l1, ListNode* l2)
+    {
+        if(!l1 || l2 && l1->val > l2->val) swap(l1, l2);
+        if(l1) l1->next = mergeTwoLists_3(l1->next, l2);
+        return l1;
     }
 };
