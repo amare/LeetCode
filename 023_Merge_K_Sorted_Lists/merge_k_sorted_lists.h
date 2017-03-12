@@ -12,6 +12,14 @@
 #include <vector>
 using std::vector;
 
+#include <queue>
+using std::priority_queue;
+
+#include <algorithm>
+using std::make_heap;
+using std::pop_heap;
+using std::push_heap;
+
 
 // Definition for singly-linked list.
 struct ListNode {
@@ -66,5 +74,64 @@ public:
         }
 
         return lists.front();
+    }
+
+    struct compare
+    {
+        bool operator()(const ListNode *l1, const ListNode *l2)
+        {
+            return l1->val > l2->val;
+        }
+    };
+    // priority_queue
+    ListNode* mergeKLists_3(vector<ListNode*>& lists)
+    {
+        priority_queue<ListNode *, vector<ListNode*>, compare> q;
+        for(auto l : lists)
+            if(l)
+                q.push(l);
+        if(q.empty()) return NULL;
+
+        ListNode head(INT_MIN);
+        ListNode *tail = &head;
+        while(!q.empty())
+        {
+            tail->next = q.top();
+            q.pop();
+            tail = tail->next;
+            if(tail->next)
+                q.push(tail->next);
+        }
+
+        return head.next;
+    }
+    // heap
+    ListNode* mergeKLists_4(vector<ListNode*>& lists)
+    {
+        vector<ListNode *> heap;
+        for(auto l : lists)
+        {
+            if(l) heap.push_back(l);
+        }
+        auto comp = [](ListNode * &a, ListNode * &b) -> bool { return a->val > b->val; };
+        make_heap(heap.begin(), heap.end(), comp);
+        if(heap.empty()) return NULL;
+
+        ListNode head(INT_MIN);
+        ListNode *tail = &head;
+        while(!heap.empty())
+        {
+            tail->next = heap.front();
+            pop_heap(heap.begin(), heap.end(), comp);
+            heap.pop_back();
+            tail = tail->next;
+            if(tail->next)
+            {
+                heap.push_back(tail->next);
+                push_heap(heap.begin(), heap.end(), comp);
+            }
+        }
+
+        return head.next;
     }
 };

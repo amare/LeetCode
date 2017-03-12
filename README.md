@@ -23,6 +23,8 @@ Solutions and resources for LeetCode problems.&hearts;
 |20|[Valid Parentheses][20]|[C++](020_Valid_Parentheses/valid_parentheses.h)|Easy|2017/03/11|
 |21|[Merge Two Sorted Lists][21]|[C++](021_Merge_Two_Sorted_Lists/merge_two_sorted_lists.h)|Easy|2017/03/11|
 |22|[Generate Parentheses][22]|[C++](022_Generate_Parentheses/generate_parentheses.h)|Medium|2017/03/11|
+|23|[Merge k Sorted Lists][23]|[C++](023_Merge_k_Sorted_Lists/merge_k_sorted_lists.h)|Hard|2017/03/12|
+|26|[Remove Duplicates from Sorted Array][26]|[C++](026_Remove_Duplicates_from_Sorted_Array/remove_duplicates_from_sorted_array.h)|Easy|2017/03/12|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
 
@@ -44,5 +46,7 @@ Solutions and resources for LeetCode problems.&hearts;
 [20]:https://leetcode.com/problems/valid-parentheses
 [21]:https://leetcode.com/problems/merge-two-sorted-lists
 [22]:https://leetcode.com/problems/generate-parentheses
+[23]:https://leetcode.com/problems/merge-k-sorted-lists
+[26]:https://leetcode.com/problems/remove-duplicates-from-sorted-array
 [66]:https://leetcode.com/problems/plus-one
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
