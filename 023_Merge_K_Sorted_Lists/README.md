@@ -27,4 +27,6 @@ $N/2 + 2N/2 + ... + KN/2  =  \frac{N}{2}\sum_{i=1}^K i  =  \frac{NK(K+1)}{4} $
 
 [堆](https://discuss.leetcode.com/topic/7160/brief-c-solution-with-priority_queue/5)
 
+[分治](https://discuss.leetcode.com/topic/29088/c-solution-using-merge-sort)
+
 

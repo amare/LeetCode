@@ -134,4 +134,24 @@ public:
 
         return head.next;
     }
+
+    ListNode *partition(vector<ListNode*> &lists, int low, int high)
+    {
+        if(low == high)
+            return lists[low];
+        if(low < high)
+        {
+            int mid = (low + high) / 2;
+            ListNode *l1 = partition(lists, low, mid);
+            ListNode *l2 = partition(lists, mid + 1, high);
+            return mergeTwoLists(l1, l2);
+        }
+
+        return NULL;
+    }
+
+    ListNode* mergeKLists_5(vector<ListNode*>& lists)
+    {
+        return partition(lists, 0, lists.size() - 1);
+    }
 };
