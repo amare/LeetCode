@@ -75,4 +75,30 @@ public:
 
         return sign ? -result : result;
     }
+
+    int divide_3(int dividend, int divisor)
+    {
+        if(0 == divisor) return INT_MAX;
+        if(-1 == divisor && INT_MIN == dividend) return INT_MAX;
+
+        bool sign = (dividend < 0) ^ (divisor < 0);
+
+        unsigned int udividend = dividend < 0 ? -dividend : dividend;
+        unsigned int udivisor = divisor < 0 ? -divisor : divisor;
+
+        unsigned int single_difference = 0;
+        unsigned int result = 0;        // quotient
+        for(int i = 31; i >= 0; --i)
+        {
+            single_difference <<= 1;
+            single_difference |= (udividend >> i) & 1;
+            if(single_difference >= udivisor)
+            {
+                single_difference -= udivisor;
+                result |= (1 << i);
+            }
+        }
+
+        return sign ? -result : result;
+    }
 };
