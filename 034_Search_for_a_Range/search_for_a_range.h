@@ -36,7 +36,7 @@ public:
         high = nums.size() - 1;
         while(low < high)
         {
-            int mid = (low + high) / 2 + 1;
+            int mid = (low + high) / 2 + 1;     // ^attention
             if(nums[mid] > target)
                 high = mid - 1;
             else
@@ -47,5 +47,15 @@ public:
             result[1] = high;
 
         return result;
+    }
+
+    vector<int> searchRange_2(vector<int>& nums, int target)
+    {
+        auto idx1 = lower_bound(nums.begin(), nums.end(), target);
+        auto idx2 = lower_bound(nums.begin(), nums.end(), target + 1) - 1;
+        if (idx1 != nums.end() && *idx1 == target)
+            return {idx1 - nums.begin(), idx2 - nums.begin()};
+        else
+            return {-1, -1};
     }
 };
