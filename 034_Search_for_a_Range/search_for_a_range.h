@@ -33,16 +33,15 @@ public:
         if(!nums.empty() && nums[low] == target)
             result[0] = low;
 
-        low = 0, high = nums.size() - 1;
+        high = nums.size() - 1;
         while(low < high)
         {
             int mid = (low + high) / 2 + 1;
-            if(nums[mid] < target)
-                low = mid + 1;
-            else if(nums[mid] == target)
-                low = mid;
-            else
+            if(nums[mid] > target)
                 high = mid - 1;
+            else
+                low = mid;
+
         }
         if(!nums.empty() && nums[high] == target)
             result[1] = high;
