@@ -26,6 +26,11 @@ Solutions and resources for LeetCode problems.&hearts;
 |23|[Merge k Sorted Lists][23]|[C++](023_Merge_k_Sorted_Lists/merge_k_sorted_lists.h)|Hard|2017/03/12|
 |26|[Remove Duplicates from Sorted Array][26]|[C++](026_Remove_Duplicates_from_Sorted_Array/remove_duplicates_from_sorted_array.h)|Easy|2017/03/12|
 |28|[Implement strStr][28]|[C++](028_Implement_strStr/implement_strStr.h)|Easy|2017/03/12|
+|29|[Divide Two Integers][29]|[C++](029_Divide_Two_Integers/divide_two_integers.h)|Medium|2017/03/14|
+|33|[Search in Rotated Sorted Array][33]|[C++](033_Search_in_Rotated_Sorted_Array/search_in_rotated_sorted_array.h)|Medium|2017/03/16|
+|34|[Search for a Range][34]|[C++](034_Search_for_a_Range/search_for_a_range.h)|Medium|2017/03/16|
+|35|[Valid Sudoku][35]|[C++](036_Valid_Sudoku/valid_sudoku.h)|Medium|2017/03/17|
+|38|[Count and Say][38]|[C++](038_Count_and_Say/count_and_say.h)|Easy|2017/03/17|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
 
@@ -50,5 +55,10 @@ Solutions and resources for LeetCode problems.&hearts;
 [23]:https://leetcode.com/problems/merge-k-sorted-lists
 [26]:https://leetcode.com/problems/remove-duplicates-from-sorted-array
 [28]:https://leetcode.com/problems/implement-strstr
+[29]:https://leetcode.com/problems/divide-two-integers
+[33]:https://leetcode.com/problems/search-in-rotated-sorted-array
+[34]:https://leetcode.com/problems/search-for-a-range
+[35]:https://leetcode.com/problems/valid-sudoku
+[38]:https://leetcode.com/problems/count-and-say
 [66]:https://leetcode.com/problems/plus-one
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
