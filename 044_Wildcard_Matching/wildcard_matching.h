@@ -45,16 +45,41 @@ public:
         else
             return (!s.empty() && (s[0] == p[0] || p[0] == '?') && isMatch_1(s.substr(1), p.substr(1)));
     }
-
-    // ==========
-    bool isAllAsterisk(string &p, int n)
+    // Time Limit Exceeded?     @gps: maybe the copy of the string? see isMatch_4
+    bool isMatch_1_v2(string &s, string &p)
     {
-        for(int i = 0; i < n; ++i)
-            if(p[i] != '*')
-                return false;
-        return true;
+        if(p.empty()) return s.empty();
+        if(p[0] == '*')
+        {
+            // DeleteDulplicateAsterisk(p);
+            int i = 0;
+            while(i + 1 < p.size() && p[i + 1] == '*') ++i;     // skip duplicate '*'
+
+            string new_p = p.substr(i + 1);
+            bool ret = isMatch_1(s, new_p);
+
+            bool ret2 = false;
+            if(!s.empty())
+            {
+                string new_s = s.substr(1);
+                ret2 = isMatch_1(new_s, p);
+            }
+
+            return ret || ret2;
+        }
+        else if(!s.empty())
+        {
+            string new_p = p.substr(1);
+            string new_s = s.substr(1);
+            return (s[0] == p[0] || p[0] == '?') && isMatch_1(new_s, new_p);
+        }
+        else
+        {
+            return false;
+        }
     }
 
+    // ==========
     // Dynamic Programming
     bool isMatch_2(string &s, string &p)
     {
@@ -64,8 +89,8 @@ public:
         table[0][0] = true;
         for(int j = 1; j <= p_size; ++j)
         {
-            if(isAllAsterisk(p, j))
-                table[0][j] = true;
+            if(p[j-1] == '*')
+                table[0][j] = table[0][j-1];
         }
 
         for(int i = 1; i <= s_size; ++i)
@@ -90,37 +115,63 @@ public:
         int s_pre_index = -1, p_pre_index = -1;
         while(s_index < s_size)
         {
-            if(s[s_index] == p[p_index] || p[p_index] == '?')
+            if(p_index < p_size && (s[s_index] == p[p_index] || p[p_index] == '?'))
             {
                 ++s_index;
                 ++p_index;
                 // continue;
             }
-            else if(p[p_index] == '*')
+            else if(p_index < p_size && p[p_index] == '*')
             {
                 p_pre_index = p_index;
                 ++p_index;
                 s_pre_index = s_index;
                 // continue;
             }
+            else if(p_pre_index > -1)    // Backtracking
+            {
+                p_index = p_pre_index + 1;
+                s_index = ++s_pre_index;
+                // continue;
+            }
             else
             {
-                if(p_pre_index > -1)    // Backtracking
-                {
-                    p_index = p_pre_index + 1;
-                    s_index = ++s_pre_index;
-                    // continue;
-                }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
         }
 
-        while(p[p_index] == '*') ++p_index;
+        while(p_index < p_size && p[p_index] == '*') ++p_index;
 
         return p_index == p_size;
     }
 
+    // ==========
+    // return value:
+    // 0: reach the end of s but unmatched
+    // 1: unmatched without reaching the end of s
+    // 2: matched
+    int dfs(string& s, string& p, int si, int pi)
+    {
+        if (si == s.size() and pi == p.size()) return 2;
+        if (si == s.size() and p[pi] != '*') return 0;
+        if (pi == p.size()) return 1;
+        if (p[pi] == '*')
+        {
+            if (pi + 1 < p.size() and p[pi+1] == '*')
+                return dfs(s, p, si, pi + 1); // skip duplicate '*'
+            for(int i = 0; i <= s.size() - si; ++i)
+            {
+                int ret = dfs(s, p, si + i, pi + 1);
+                if (ret == 0 or ret == 2) return ret;
+            }
+        }
+        if (p[pi] == '?' or s[si] == p[pi])
+            return dfs(s, p, si + 1, pi + 1);
+        return 1;
+    }
+
+    bool isMatch_4(string &s, string &p)
+    {
+         return dfs(s, p, 0, 0) > 1;
+    }
 };
