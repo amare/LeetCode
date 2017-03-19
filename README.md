@@ -31,7 +31,11 @@ Solutions and resources for LeetCode problems.&hearts;
 |34|[Search for a Range][34]|[C++](034_Search_for_a_Range/search_for_a_range.h)|Medium|2017/03/16|
 |35|[Valid Sudoku][35]|[C++](036_Valid_Sudoku/valid_sudoku.h)|Medium|2017/03/17|
 |38|[Count and Say][38]|[C++](038_Count_and_Say/count_and_say.h)|Easy|2017/03/17|
+|41|[First Missing Positive][41]|[C++](041_First_Missing_Positive/first_missing_positive.h)|Hard|2017/03/17|
+|42|[Trapping Rain Water][42]|[C++](042_Trapping_Rain_Water/trapping_rain_water.h)|Hard|2017/03/18|
+|44|[Wildcard Matching][44]|[C++](044_Wildcard_Matching/wildcard_matching.h)|Hard|2017/03/19|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
+|268|[Missing Number][268]|[C++](268_Missing_Number/missing_number.h)|Easy|2017/03/17|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
 
 
@@ -60,5 +64,9 @@ Solutions and resources for LeetCode problems.&hearts;
 [34]:https://leetcode.com/problems/search-for-a-range
 [35]:https://leetcode.com/problems/valid-sudoku
 [38]:https://leetcode.com/problems/count-and-say
+[41]:https://leetcode.com/problems/first-missing-positive
+[42]:https://leetcode.com/problems/trapping-rain-water
+[44]:https://leetcode.com/problems/wildcard-matching
 [66]:https://leetcode.com/problems/plus-one
+[268]:https://leetcode.com/problems/missing-number
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
