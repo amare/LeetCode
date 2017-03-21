@@ -14,7 +14,7 @@ Solutions and resources for LeetCode problems.&hearts;
 |7|[Reverse Integer][7]|[C++](007_Reverse_Integer/reverse_integer.cc)|Easy|2017/03/02|
 |8|[String to Integer(atoi)][8]|[C++](008_String_to_Integer(atoi)/string_to_integer(atoi).h)|Medium|2017/03/04|
 |10|[Regular Expression Matching][10]|[C++](010_Regular_Expression_Matching/regular_expression_matching.h)|Hard|2017/03/09|
-|11|[Container With Most Water][11]|[C++](011_Container_With Most_Water/container_with_most_water.h)|Medium|2017/03/09
+|11|[Container With Most Water][11]|[C++](011_Container_With_most_Water/container_with_most_water.h)|Medium|2017/03/09|
 |13|[Roman to Integer][13]|[C++](013_Roman_to_Integer/roman_to_integer.h)|Easy|2017/03/02|
 |14|[Longest Common Prefix][14]|[C++](014_Longest_Common_Prefix/longest_common_prefix.h)|Easy|2017/03/09|
 |15|[3Sum][15]|[C++](015_3Sum/3sum.h)|Medium|2017/03/10|
@@ -34,6 +34,8 @@ Solutions and resources for LeetCode problems.&hearts;
 |41|[First Missing Positive][41]|[C++](041_First_Missing_Positive/first_missing_positive.h)|Hard|2017/03/17|
 |42|[Trapping Rain Water][42]|[C++](042_Trapping_Rain_Water/trapping_rain_water.h)|Hard|2017/03/18|
 |44|[Wildcard Matching][44]|[C++](044_Wildcard_Matching/wildcard_matching.h)|Hard|2017/03/19|
+|46|[Permutations][46]|[C++](044_Permutations/permutations.h)|Medium|2017/03/20|
+|48|[Rotate Image][48]|[C++](048_Rotate_Image/rotate_image.h)|Medium|2017/03/20|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 |268|[Missing Number][268]|[C++](268_Missing_Number/missing_number.h)|Easy|2017/03/17|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
@@ -67,6 +69,8 @@ Solutions and resources for LeetCode problems.&hearts;
 [41]:https://leetcode.com/problems/first-missing-positive
 [42]:https://leetcode.com/problems/trapping-rain-water
 [44]:https://leetcode.com/problems/wildcard-matching
+[46]:https://leetcode.com/problems/permutations
+[48]:https://leetcode.com/problems/rotate-image
 [66]:https://leetcode.com/problems/plus-one
 [268]:https://leetcode.com/problems/missing-number
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
