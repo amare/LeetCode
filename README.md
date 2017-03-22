@@ -36,7 +36,11 @@ Solutions and resources for LeetCode problems.&hearts;
 |44|[Wildcard Matching][44]|[C++](044_Wildcard_Matching/wildcard_matching.h)|Hard|2017/03/19|
 |46|[Permutations][46]|[C++](044_Permutations/permutations.h)|Medium|2017/03/20|
 |48|[Rotate Image][48]|[C++](048_Rotate_Image/rotate_image.h)|Medium|2017/03/20|
+|49|[Group Anagrams][49]|[C++](049_Group_Anagrams/group_anagrams.h)|Medium|2017/03/21|
+|50|[Pow(x, n)][50]|[C++](050_Pow/pow.h)|Medium|2017/03/21|
+|53|[Maximum Subarray][53]|[C++](053_Maximum_Subarray/maximum_subarray.h)|Easy|2017/03/21|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
+|242|[Valid Anagram][242]|[C++](242_Valid_Anagram/valid_anagram.h)|Easy|2017/03/21|
 |268|[Missing Number][268]|[C++](268_Missing_Number/missing_number.h)|Easy|2017/03/17|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
 
@@ -71,6 +75,10 @@ Solutions and resources for LeetCode problems.&hearts;
 [44]:https://leetcode.com/problems/wildcard-matching
 [46]:https://leetcode.com/problems/permutations
 [48]:https://leetcode.com/problems/rotate-image
+[49]:https://leetcode.com/problems/anagrams
+[50]:https://leetcode.com/problems/powx-n
+[53]:https://leetcode.com/problems/maximum-subarray
 [66]:https://leetcode.com/problems/plus-one
+[242]:https://leetcode.com/problems/valid-anagram
 [268]:https://leetcode.com/problems/missing-number
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
