@@ -1,7 +1,7 @@
 Some Script
 ======
 
-###readme.sh
+### readme.sh
 `readme.sh` - it's used to generate the table items in README.md located in LeetCode directory
 For Example:
 ```
@@ -10,13 +10,10 @@ $ ./Scripts/readme.sh 062_Unique_Paths/unique_paths.h
 [62]:https://leetcode.com/problems/unique-paths/#/description
 ```
 
-###gitpush.sh
+### gitpush.sh
 `gitpush.sh` - it's used to push the code to github using one command
->Note: only used for the example below:
-
->>$ git status -s
-
->>?? 062_Unique_Paths/
+>Note: When using `git status -s` command, the result should be like `?? 062_Unique_Paths/`.
+>In other word, the result should match regular expression `/^\?.*[0-9]/`
 
 For Example:
 ```
