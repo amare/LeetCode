@@ -29,5 +29,8 @@
 *.app
 
 # My Script
-*.sh
-*.pl
+#*.sh
+#*.pl
+
+# My temp files
+*.bak
