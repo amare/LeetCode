@@ -34,3 +34,6 @@
 
 # My temp files
 *.bak
+
+# some resource files
+*.pdf
