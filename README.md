@@ -41,12 +41,14 @@ Solutions and resources for LeetCode problems.&hearts;
 |53|[Maximum Subarray][53]|[C++](053_Maximum_Subarray/maximum_subarray.h)|Easy|2017/03/21|
 |54|[Spiral Matrix][54]|[C++](054_Spiral_Matrix/spiral_matrix.h)|Medium|2017/03/22|
 |55|[Jump Game][55]|[C++](055_Jump_Game/jump_game.h)|Medium|2017/03|22|
-|56|[Merge Intervals][56]|[C++](056_Merge_Intervals/merge_intervals.h)|2017/03/23|
+|56|[Merge Intervals][56]|[C++](056_Merge_Intervals/merge_intervals.h)|Medium|2017/03/23|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 |242|[Valid Anagram][242]|[C++](242_Valid_Anagram/valid_anagram.h)|Easy|2017/03/21|
 |268|[Missing Number][268]|[C++](268_Missing_Number/missing_number.h)|Easy|2017/03/17|
 |515|[Find Largest Value in Each Tree Row][515]|[C++](515_Find_Largest_Value_in_Each_Tree_Row/find_largest_value_in_each_tree_row.h)|Medium|2017/03/05|
 |62|[Unique Paths][62]|[C++](./062_Unique_Paths/unique_paths.h)|Medium|2017/03/25|
+|69|[Sqrt][69]|[C++](./069_Sqrt/sqrt.h)|Easy|2017/03/26|
+|70|[Climbing Stairs][70]|[C++](./070_Climbing_Stairs/climbing_stairs.h)|Easy|2017/03/26|
 <!-- insert flag -->
 
 
@@ -91,3 +93,5 @@ Solutions and resources for LeetCode problems.&hearts;
 [268]:https://leetcode.com/problems/missing-number
 [515]:https://leetcode.com/problems/find-largest-value-in-each-tree-row
 [62]:https://leetcode.com/problems/unique-paths/#/description
+[69]:https://leetcode.com/problems/sqrtx/#/description
+[70]:https://leetcode.com/problems/climbing-stairs/#/description
