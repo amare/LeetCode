@@ -49,6 +49,9 @@ Solutions and resources for LeetCode problems.&hearts;
 |62|[Unique Paths][62]|[C++](./062_Unique_Paths/unique_paths.h)|Medium|2017/03/25|
 |69|[Sqrt][69]|[C++](./069_Sqrt/sqrt.h)|Easy|2017/03/26|
 |70|[Climbing Stairs][70]|[C++](./070_Climbing_Stairs/climbing_stairs.h)|Easy|2017/03/26|
+|73|[Set Matrix Zeroes][73]|[C++](./073_Set_Matrix_Zeroes/set_matrix_zeroes.h)|Medium|2017/03/27|
+|75|[Sort Colors][75]|[C++](./075_Sort_Colors/sort_colors.h)|Medium|2017/03/27|
+|76|[Minimum Window Substring][76]|[C++](./076_Minimum_Window_Substring/minimum_window_substring.h)|Hard|2017/03/27|
 <!-- insert flag -->
 
 
@@ -95,3 +98,6 @@ Solutions and resources for LeetCode problems.&hearts;
 [62]:https://leetcode.com/problems/unique-paths/#/description
 [69]:https://leetcode.com/problems/sqrtx/#/description
 [70]:https://leetcode.com/problems/climbing-stairs/#/description
+[73]:https://leetcode.com/problems/set-matrix-zeroes/#/description
+[75]:https://leetcode.com/problems/sort-colors/#/description
+[76]:https://leetcode.com/problems/minimum-window-substring/#/description
