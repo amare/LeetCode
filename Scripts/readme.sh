@@ -6,9 +6,9 @@ URL=`grep Source ${FILE} | awk '{print $2}' | dos2unix`
 #title_str=`curl ${URL} | grep -A2 question-title`
 
 #dirname ${1} | sed "s/\.//g; s/_/ /g; s/0//g" > tmp
-echo ${DIR} | sed "s/.*LeetCode\///g; s/_/ /g; s/0//g" > tmp
+echo ${DIR} | sed "s/.*LeetCode\///g; s/_/ /g; s/^0//g" > tmp
 NUM=`awk '{print $1}' tmp`
-TITLE=`awk '{print $2,$3}' tmp`
+TITLE=`awk '{for(i=1;i<=1;i++){$i=""};print $0}' tmp | sed "s/\s*//"`
 rm tmp
 
 DIFFICULTY=`grep Difficulty ${FILE} | awk '{print $2}' | dos2unix`
