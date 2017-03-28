@@ -1,7 +1,7 @@
 /*
  Author:            cuckoo
  Date:              2017/02/27 22:01:26
- Update:
+ Update:            2017/03/28 15:38:04
  Problem:           Longest Substring Without Repeating Characters
  Difficulty:        Medium
  Source:            https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -204,6 +204,31 @@ int lengthOfLongestSubstring_5(string s)
 
     return max(max_length, s.size() - start);
 }
+
+//  https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems/2
+    int lengthOfLongestSubstring_6(string &s)
+    {
+        vector<int> hash(128, 0);
+        size_t begin = 0, end = 0, max_length = 0;
+        size_t size = s.size(), count = 0;
+        while(end < size)
+        {
+            if(hash[s[end]] > 0)
+                ++count;
+            ++hash[s[end]];
+            ++end;
+            while(count > 0)
+            {
+                if(hash[s[begin]] > 1)
+                    --count;
+                --hash[s[begin]];
+                ++begin;
+            }
+            max_length = max(max_length, end - begin);
+        }
+        
+        return max_length;
+    }
 
 int lengthOfLongestSubstring(string s)
 {
