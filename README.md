@@ -66,6 +66,10 @@ Solutions and resources for LeetCode problems.
 |101|[Symmetric Tree][101]&spades;|[C++](./101_Symmetric_Tree/symmetric_tree.h)|Easy|2017/03/30|
 |91|[Decode Ways][91]&clubs;|[C++](./091_Decode_Ways/decode_way.h)|Medium|2017/03/31|
 |94|[Binary Tree Inorder Traversal][94]&spades;|[C++](./094_Binary_Tree_Inorder_Traversal/binary_tree_inorder_traversal.h)|Medium|2017/03/31|
+|98|[Validate Binary Search Tree][98]&spades;|[C++](./098_Validate_Binary_Search_Tree/validate_binary_search_tree.h)|Medium|2017/03/31|
+|102|[Binary Tree Level Order Traversal][102]|[C++](./102_Binary_Tree_Level_Order_Traversal/binary_tree_level_order_traversal.h)|Medium|2017/03/31|
+|103|[Binary Tree Zigzag Level Order Traversal][103]|[C++](./103_Binary_Tree_Zigzag_Level_Order_Traversal/binary_tree_zigzag_level_order_traversal.h)|Medium|2017/03/31|
+|104|[Maximum Depth of Binary Tree][104]|[C++](./104_Maximum_Depth_of_Binary_Tree/maximum_depth_of_binary_tree.h)|Easy|2017/03/31|
 <!-- insert flag -->
 
 
@@ -122,3 +126,7 @@ Solutions and resources for LeetCode problems.
 [101]:https://leetcode.com/problems/symmetric-tree/#/description
 [91]:https://leetcode.com/problems/decode-ways/#/description
 [94]:https://leetcode.com/problems/binary-tree-inorder-traversal/#/description
+[98]:https://leetcode.com/problems/validate-binary-search-tree/#/description
+[102]:https://leetcode.com/problems/binary-tree-level-order-traversal/#/description
+[103]:https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/#/description
+[104]:https://leetcode.com/problems/maximum-depth-of-binary-tree/#/description
