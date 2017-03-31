@@ -1,11 +1,18 @@
 LeetCode
 ========
-Solutions and resources for LeetCode problems.&hearts;
+Solutions and resources for LeetCode problems.
+
+#### Note
+|Symbol|Meaning|
+|:------:|:-------:|
+|&spades;|fundamental|
+|&clubs;|complexity|
+
 
 ### LeetCode Algorithm
 
 |No.|Title|Solution|Difficulty|Add Data|
-|---|-----|----------|--------|--------|
+|---|-----|:----------:|--------|--------|
 |1|[Two Sum][1]|[C++](001_Two_Sum/two-sum.cc)|Easy|2017/03/02|
 |2|[Add Two Numbers][2]|[C++](002_Add_Two_Numbers/add_two_numbers.cc)|Medium|2017/03/02|
 |3|[Longest Substring Without Repeating Characters][3]|[C++](003_Longest_Substring_Without_Repeating_Characters/longest_substring_without_repeating_characters.cc)|Medium|2017/03/02|
@@ -52,6 +59,13 @@ Solutions and resources for LeetCode problems.&hearts;
 |73|[Set Matrix Zeroes][73]|[C++](./073_Set_Matrix_Zeroes/set_matrix_zeroes.h)|Medium|2017/03/27|
 |75|[Sort Colors][75]|[C++](./075_Sort_Colors/sort_colors.h)|Medium|2017/03/27|
 |76|[Minimum Window Substring][76]|[C++](./076_Minimum_Window_Substring/minimum_window_substring.h)|Hard|2017/03/27|
+|78|[Subsets][78]|[C++](./078_Subsets/subsets.h)|Medium|2017/03/29|
+|79|[Word Search][79]|[C++](./079_Word_Search/word_search.h)|Medium|2017/03/29|
+|88|[Merge Sorted Array][88]|[C++](./088_Merge_Sorted_Array/merge_sorted_array.h)|Easy|2017/03/29|
+|84|[Largest Rectangle in Histogram][84]|[C++](./084_Largest_Rectangle_in_Histogram/largest_rectangle_in_histogram.h)|Hard|2017/03/30|
+|101|[Symmetric Tree][101]&spades;|[C++](./101_Symmetric_Tree/symmetric_tree.h)|Easy|2017/03/30|
+|91|[Decode Ways][91]&clubs;|[C++](./091_Decode_Ways/decode_way.h)|Medium|2017/03/31|
+|94|[Binary Tree Inorder Traversal][94]&spades;|[C++](./094_Binary_Tree_Inorder_Traversal/binary_tree_inorder_traversal.h)|Medium|2017/03/31|
 <!-- insert flag -->
 
 
@@ -101,3 +115,10 @@ Solutions and resources for LeetCode problems.&hearts;
 [73]:https://leetcode.com/problems/set-matrix-zeroes/#/description
 [75]:https://leetcode.com/problems/sort-colors/#/description
 [76]:https://leetcode.com/problems/minimum-window-substring/#/description
+[78]:https://leetcode.com/problems/subsets/#/description
+[79]:https://leetcode.com/problems/word-search/#/description
+[88]:https://leetcode.com/problems/merge-sorted-array/#/description
+[84]:https://leetcode.com/problems/largest-rectangle-in-histogram/#/description
+[101]:https://leetcode.com/problems/symmetric-tree/#/description
+[91]:https://leetcode.com/problems/decode-ways/#/description
+[94]:https://leetcode.com/problems/binary-tree-inorder-traversal/#/description
