@@ -67,9 +67,14 @@ Solutions and resources for LeetCode problems.
 |91|[Decode Ways][91]&clubs;|[C++](./091_Decode_Ways/decode_way.h)|Medium|2017/03/31|
 |94|[Binary Tree Inorder Traversal][94]&spades;|[C++](./094_Binary_Tree_Inorder_Traversal/binary_tree_inorder_traversal.h)|Medium|2017/03/31|
 |98|[Validate Binary Search Tree][98]&spades;|[C++](./098_Validate_Binary_Search_Tree/validate_binary_search_tree.h)|Medium|2017/03/31|
-|102|[Binary Tree Level Order Traversal][102]|[C++](./102_Binary_Tree_Level_Order_Traversal/binary_tree_level_order_traversal.h)|Medium|2017/03/31|
+|102|[Binary Tree Level Order Traversal][102]&spades;|[C++](./102_Binary_Tree_Level_Order_Traversal/binary_tree_level_order_traversal.h)|Medium|2017/03/31|
 |103|[Binary Tree Zigzag Level Order Traversal][103]|[C++](./103_Binary_Tree_Zigzag_Level_Order_Traversal/binary_tree_zigzag_level_order_traversal.h)|Medium|2017/03/31|
 |104|[Maximum Depth of Binary Tree][104]|[C++](./104_Maximum_Depth_of_Binary_Tree/maximum_depth_of_binary_tree.h)|Easy|2017/03/31|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal][105]&clubs;|[C++](./105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/construct_binary_tree_from_preorder_and_inorder_traversal.h)|Medium|2017/04/01|
+|108|[Convert Sorted Array to Binary Search Tree][108]|[C++](./108_Convert_Sorted_Array_to_Binary_Search_Tree/convert_sorted_array_to_binary_search_tree.h)|Easy|2017/04/01|
+|116|[Populating Next Right Pointers in Each Node][116]&spades;|[C++](./116_Populating_Next_Right_Pointers_in_Each_Node/populating_next_right_pointers_in_each_node.h)|Medium|2017/04/01|
+|118|[Pascal's Triangle][118]|[C++](./118_Pascal's_Triangle/pascal's_triangle.h)|Easy|2017/04/01|
+|121|[Best Time to Buy and Sell Stock][121]|[C++](./121_Best_Time_to_Buy_and_Sell_Stock/best_time_to_buy_and_sell_stock.h)|Easy|2017/04/01|
 <!-- insert flag -->
 
 
@@ -130,3 +135,8 @@ Solutions and resources for LeetCode problems.
 [102]:https://leetcode.com/problems/binary-tree-level-order-traversal/#/description
 [103]:https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/#/description
 [104]:https://leetcode.com/problems/maximum-depth-of-binary-tree/#/description
+[105]:https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/#/description
+[108]:https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/#/description
+[116]:https://leetcode.com/problems/populating-next-right-pointers-in-each-node/#/description
+[118]:https://leetcode.com/problems/pascals-triangle/#/description
+[121]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description
