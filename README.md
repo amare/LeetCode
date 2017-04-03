@@ -75,6 +75,14 @@ Solutions and resources for LeetCode problems.
 |116|[Populating Next Right Pointers in Each Node][116]&spades;|[C++](./116_Populating_Next_Right_Pointers_in_Each_Node/populating_next_right_pointers_in_each_node.h)|Medium|2017/04/01|
 |118|[Pascal's Triangle][118]|[C++](./118_Pascal's_Triangle/pascal's_triangle.h)|Easy|2017/04/01|
 |121|[Best Time to Buy and Sell Stock][121]|[C++](./121_Best_Time_to_Buy_and_Sell_Stock/best_time_to_buy_and_sell_stock.h)|Easy|2017/04/01|
+|24|[Swap Nodes in Pairs][24]&spades;|[C++](./24_Swap_Nodes_in_Pairs/swap_nodes_in_pairs.h)|Medium|2017/04/03|
+|95|[Unique Binary Search Trees II][95]&clubs;|[C++](./095_Unique_Binary_Search_Trees_II/unique_binary_search_trees_ii.h)|Medium|2017/04/03|
+|96|[Unique Binary Search Trees][96]|[C++](./096_Unique_Binary_Search_Trees/unique_binary_search_trees.h)|Medium|2017/04/03|
+|100|[Same Tree][100]|[C++](./100_Same_Tree/same_tree.h)|Easy|2017/04/03|
+|122|[Best Time to Buy and Sell Stock II][122]&clubs;|[C++](./122_Best_Time_to_Buy_and_Sell_Stock_II/best_time_to_buy_and_Sell_Stock_II.h)|Easy|2017/04/03|
+|125|[Valid Palindrome][125]|[C++](./125_Valid_Palindrome/valid_palindrome.h)|Easy|2017/04/03|
+|63|[Unique Paths II][63]&spades;|[C++](./063_Unique_Paths_II/unique_paths_ii.h)|Medium|2017/04/03|
+|64|[Minimum Path Sum][64]|[C++](./064_Minimum_Path_Sum/minimum_path_sum.h)|Medium|2017/04/03|
 <!-- insert flag -->
 
 
@@ -140,3 +148,11 @@ Solutions and resources for LeetCode problems.
 [116]:https://leetcode.com/problems/populating-next-right-pointers-in-each-node/#/description
 [118]:https://leetcode.com/problems/pascals-triangle/#/description
 [121]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description
+[24]:https://leetcode.com/problems/swap-nodes-in-pairs/#/description
+[95]:https://leetcode.com/problems/unique-binary-search-trees-ii/#/description
+[96]:https://leetcode.com/problems/unique-binary-search-trees/#/description
+[100]:https://leetcode.com/problems/same-tree/#/description
+[122]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/#/description
+[125]:https://leetcode.com/problems/valid-palindrome/#/description
+[63]:https://leetcode.com/problems/unique-paths-ii/#/description
+[64]:https://leetcode.com/problems/minimum-path-sum/#/description
