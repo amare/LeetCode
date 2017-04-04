@@ -1,6 +1,6 @@
 LeetCode
 ========
-Solutions and resources for LeetCode problems.
+Solutions and resources for LeetCode problems from a C++ begginer.
 
 #### Note
 |Symbol|Meaning|
@@ -47,7 +47,7 @@ Solutions and resources for LeetCode problems.
 |50|[Pow(x, n)][50]|[C++](050_Pow/pow.h)|Medium|2017/03/21|
 |53|[Maximum Subarray][53]|[C++](053_Maximum_Subarray/maximum_subarray.h)|Easy|2017/03/21|
 |54|[Spiral Matrix][54]|[C++](054_Spiral_Matrix/spiral_matrix.h)|Medium|2017/03/22|
-|55|[Jump Game][55]|[C++](055_Jump_Game/jump_game.h)|Medium|2017/03|22|
+|55|[Jump Game][55]|[C++](055_Jump_Game/jump_game.h)|Medium|2017/03/22|
 |56|[Merge Intervals][56]|[C++](056_Merge_Intervals/merge_intervals.h)|Medium|2017/03/23|
 |66|[Plus One][66]|[C++](066_Plus_One/plus_one.cc)|Easy|2017/03/02|
 |242|[Valid Anagram][242]|[C++](242_Valid_Anagram/valid_anagram.h)|Easy|2017/03/21|
@@ -83,6 +83,12 @@ Solutions and resources for LeetCode problems.
 |125|[Valid Palindrome][125]|[C++](./125_Valid_Palindrome/valid_palindrome.h)|Easy|2017/04/03|
 |63|[Unique Paths II][63]&spades;|[C++](./063_Unique_Paths_II/unique_paths_ii.h)|Medium|2017/04/03|
 |64|[Minimum Path Sum][64]|[C++](./064_Minimum_Path_Sum/minimum_path_sum.h)|Medium|2017/04/03|
+|51|[N Queens][51]&spades;|[C++](./051_N_Queens/n_queens.h)|Hard|2017/04/04|
+|52|[N Queens II][52]|[C++](./052_N_Queens_II/n_queens_ii.h)|Hard|2017/04/04|
+|169|[Majority Element][169]|[C++](./169_Majority_Element/majority_element.h)|Easy|2017/04/04|
+|215|[Kth Largest Element in an Array][215]|[C++](./215_Kth_Largest_Element_in_an_Array/kth_largest_element_in_an_array.h)|Medium|2017/04/04|
+|240|[Search a 2D Matrix II][240]|[C++](./240_Search_a_2D_Matrix_II/search_a_2d_matrix_ii.h)|Medium|2017/04/04|
+|241|[Different Ways to Add Parentheses][241]&clubs;|[C++](./241_Different_Ways_to_Add_Parentheses/different_ways_to_add_parentheses.h)|Medium|2017/04/04|
 <!-- insert flag -->
 
 
@@ -156,3 +162,9 @@ Solutions and resources for LeetCode problems.
 [125]:https://leetcode.com/problems/valid-palindrome/#/description
 [63]:https://leetcode.com/problems/unique-paths-ii/#/description
 [64]:https://leetcode.com/problems/minimum-path-sum/#/description
+[51]:https://leetcode.com/problems/n-queens/#/description
+[52]:https://leetcode.com/problems/n-queens-ii/#/description
+[169]:https://leetcode.com/problems/majority-element/#/description
+[215]:https://leetcode.com/problems/kth-largest-element-in-an-array/#/description
+[240]:https://leetcode.com/problems/search-a-2d-matrix-ii/#/description
+[241]:https://leetcode.com/problems/different-ways-to-add-parentheses/#/description
