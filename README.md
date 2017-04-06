@@ -7,6 +7,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |:------:|:-------:|
 |&spades;|fundamental|
 |&clubs;|complexity|
+|&diams;|regular pattern|
 
 
 ### LeetCode Algorithm
@@ -98,6 +99,12 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |142|[Linked List Cycle II][142]&spades;|[C++](./142_Linked_List_Cycle_II/linked_list_cycle_ii.h)|Medium|2017/04/05|
 |206|[Reverse Linked List][206]|[C++](./206_Reverse_Linked_List/reverse_linked_list.h)|Easy|2017/04/05|
 |203|[Remove Linked List Elements][203]&spades;|[C++](./203_Remove_Linked_List_Elements/remove_linked_list_elements.h)|Easy|2017/04/05|
+|39|[Combination Sum][39]&spades;|[C++](./039_Combination_Sum/combination_sum.h)|Medium|2017/04/06|
+|40|[Combination Sum II][40]|[C++](./040_Combination_Sum_II/combination_sum_ii.h)|Medium|2017/04/06|
+|47|[Permutations II][47]&clubs;|[C++](./047_Permutations_II/permutations_ii.h)|Medium|2017/04/06|
+|60|[Permutation Sequence][60]&diams;|[C++](./060_Permutation_Sequence/permutation_sequence.h)|Medium|2017/04/06|
+|77|[Combinations][77]|[C++](./077_Combinations/combinations.h)|Medium|2017/04/06|
+|90|[Subsets II][90]|[C++](./090_Subsets_II/subsets_ii.h)|Medium|2017/04/06|
 <!-- insert flag -->
 
 
@@ -186,3 +193,9 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [142]:https://leetcode.com/problems/linked-list-cycle-ii/#/description
 [206]:https://leetcode.com/problems/reverse-linked-list/#/description
 [203]:https://leetcode.com/problems/remove-linked-list-elements/#/description
+[39]:https://leetcode.com/problems/combination-sum/#/description
+[40]:https://leetcode.com/problems/combination-sum-ii/#/description
+[47]:https://leetcode.com/problems/permutations-ii/#/description
+[60]:https://leetcode.com/problems/permutation-sequence/#/description
+[77]:https://leetcode.com/problems/combinations/#/description
+[90]:https://leetcode.com/problems/subsets-ii/#/description
