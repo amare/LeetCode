@@ -55,4 +55,53 @@ public:
         head->next = removeElements_2(head->next, val);
         return head->val == val ? head->next : head;
     }
+
+    // no dummy, more concise
+    ListNode* removeElements_3(ListNode* head, int val)
+    {
+        if(head == NULL) return NULL;
+        ListNode *node = head;
+        while(node->next != NULL)
+        {
+            if(node->next->val == val)
+            {
+                /* memory leak
+                method 1
+                node->next = node->next->next;
+                
+                method 2
+                swap(node->next, node->next->next);
+                */
+                ListNode *next_temp = node->next;
+                delete node->next;
+                node->next = NULL;
+                node->next = next_temp->next;
+            }
+            else
+                node = node->next;
+        }
+        
+        return head->val == val ? head->next : head;
+    }
+    
+    // Pointer pointer
+    ListNode* removeElements_4(ListNode* head, int val)
+    {
+        if(head == NULL) return NULL;
+        ListNode **pp_head = &head;
+        while(*pp_head != NULL)
+        {
+            if((*pp_head)->val == val)
+            {
+                ListNode *temp = *pp_head;
+                *pp_head = (*pp_head)->next;
+                delete temp;
+                temp = NULL;
+            }
+            else
+                pp_head = &(*pp_head)->next;
+        }
+        
+        return head;
+    }
 };

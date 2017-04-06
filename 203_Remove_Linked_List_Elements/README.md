@@ -11,4 +11,5 @@ __Solution Step__:
  - recursive version
 
 ======
- - [other](https://discuss.leetcode.com/topic/19529/simple-and-elegant-solution-in-c)
+ - [no dummy, more concise](https://discuss.leetcode.com/topic/19203/accepted-7-line-clean-java-solution)
+ - [Pointer pointer](https://discuss.leetcode.com/topic/19529/simple-and-elegant-solution-in-c)
