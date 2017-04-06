@@ -89,6 +89,15 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |215|[Kth Largest Element in an Array][215]|[C++](./215_Kth_Largest_Element_in_an_Array/kth_largest_element_in_an_array.h)|Medium|2017/04/04|
 |240|[Search a 2D Matrix II][240]|[C++](./240_Search_a_2D_Matrix_II/search_a_2d_matrix_ii.h)|Medium|2017/04/04|
 |241|[Different Ways to Add Parentheses][241]&clubs;|[C++](./241_Different_Ways_to_Add_Parentheses/different_ways_to_add_parentheses.h)|Medium|2017/04/04|
+|61|[Rotate List][61]|[C++](./061_Rotate_List/rotate_list.h)|Medium|2017/04/05|
+|82|[Remove Duplicates from Sorted List II][82]&spades;|[C++](./082_Remove_Duplicates_from_Sorted_List_II/remove_duplicates_from_sorted_list_ii.h)|Medium|2017/04/05|
+|83|[Remove Duplicates from Sorted List][83]|[C++](./083_Remove_Duplicates_from_Sorted_List/remove_duplicates_from_sorted_list.h)|Easy|2017/04/05|
+|86|[Partition List][86]&spades;|[C++](./086_Partition_List/partition_list.h)|Medium|2017/04/05|
+|92|[Reverse Linked List II][92]&clubs;|[C++](./092_Reverse_Linked_List_II/reverse_linked_list_ii.h)|Medium|2017/04/05|
+|141|[Linked List Cycle][141]&spades;|[C++](./141_Linked_List_Cycle/linked_list_cycle.h)|Easy|2017/04/05|
+|142|[Linked List Cycle II][142]&spades;|[C++](./142_Linked_List_Cycle_II/linked_list_cycle_ii.h)|Medium|2017/04/05|
+|206|[Reverse Linked List][206]|[C++](./206_Reverse_Linked_List/reverse_linked_list.h)|Easy|2017/04/05|
+|203|[Remove Linked List Elements][203]&spades;|[C++](./203_Remove_Linked_List_Elements/remove_linked_list_elements.h)|Easy|2017/04/05|
 <!-- insert flag -->
 
 
@@ -168,3 +177,12 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [215]:https://leetcode.com/problems/kth-largest-element-in-an-array/#/description
 [240]:https://leetcode.com/problems/search-a-2d-matrix-ii/#/description
 [241]:https://leetcode.com/problems/different-ways-to-add-parentheses/#/description
+[61]:https://leetcode.com/problems/rotate-list/#/description
+[82]:https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/#/description
+[83]:https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description
+[86]:https://leetcode.com/problems/partition-list/#/description
+[92]:https://leetcode.com/problems/reverse-linked-list-ii/#/description
+[141]:https://leetcode.com/problems/linked-list-cycle/#/description
+[142]:https://leetcode.com/problems/linked-list-cycle-ii/#/description
+[206]:https://leetcode.com/problems/reverse-linked-list/#/description
+[203]:https://leetcode.com/problems/remove-linked-list-elements/#/description
