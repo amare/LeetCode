@@ -105,6 +105,11 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |60|[Permutation Sequence][60]&diams;|[C++](./060_Permutation_Sequence/permutation_sequence.h)|Medium|2017/04/06|
 |77|[Combinations][77]|[C++](./077_Combinations/combinations.h)|Medium|2017/04/06|
 |90|[Subsets II][90]|[C++](./090_Subsets_II/subsets_ii.h)|Medium|2017/04/06|
+|58|[Length of Last Word][58]|[C++](./058_Length_of_Last_Word/length_of_last_word.h)|Easy|2017/04/07|
+|67|[Add Binary][67]|[C++](./067_Add_Binary/add_binary.h)|Easy|2017/04/07|
+|120|[Triangle][120]|[C++](./120_Triangle/triangle.h)|Medium|2017/04/07|
+|139|[Word Break][139]&clubs;|[C++](./139_Word_Break/word_break.h)|Medium|2017/04/07|
+|152|[Maximum Product Subarray][152]&clubs;|[C++](./152_Maximum_Product_Subarray/maximum_product_subarray.h)|Medium|2017/04/07|
 <!-- insert flag -->
 
 
@@ -199,3 +204,8 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [60]:https://leetcode.com/problems/permutation-sequence/#/description
 [77]:https://leetcode.com/problems/combinations/#/description
 [90]:https://leetcode.com/problems/subsets-ii/#/description
+[58]:https://leetcode.com/problems/length-of-last-word/#/description
+[67]:https://leetcode.com/problems/add-binary/#/description
+[120]:https://leetcode.com/problems/triangle/#/description
+[139]:https://leetcode.com/problems/word-break/#/description
+[152]:https://leetcode.com/problems/maximum-product-subarray/#/description
