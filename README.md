@@ -110,6 +110,14 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |120|[Triangle][120]|[C++](./120_Triangle/triangle.h)|Medium|2017/04/07|
 |139|[Word Break][139]&clubs;|[C++](./139_Word_Break/word_break.h)|Medium|2017/04/07|
 |152|[Maximum Product Subarray][152]&clubs;|[C++](./152_Maximum_Product_Subarray/maximum_product_subarray.h)|Medium|2017/04/07|
+|198|[House Robber][198]&spades;|[C++](./198_House_Robber/house_robber.h)|Easy|2017/04/09|
+|213|[House Robber II][213]|[C++](./213_House_Robber_II/house_robber_ii.h)|Medium|2017/04/09|
+|221|[Maximal Square][221]|[C++](./221_Maximal_Square/maximal_square.h)|Medium|2017/04/09|
+|263|[Ugly Number][263]|[C++](./263_Ugly_Number/ugly_number.h)|Easy|2017/04/09|
+|264|[Ugly Number II][264]&clubs;|[C++](./264_Ugly_Number_II/ugly_number_ii.h)|Medium|2017/04/09|
+|279|[Perfect Squares][279]&clubs;|[C++](./279_Perfect_Squares/perfect_squares.h)|Medium|2017/04/09|
+|300|[Longest Increasing Subsequence][300]&diams;|[C++](./300_Longest_Increasing_Subsequence/longest_increasing_subsequence.h)|Medium|2017/04/09|
+|303|[Range Sum Query Immutable][303]|[C++](./303_Range_Sum_Query_Immutable/range_sum_query_immutable.h)|Easy|2017/04/09|
 <!-- insert flag -->
 
 
@@ -209,3 +217,11 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [120]:https://leetcode.com/problems/triangle/#/description
 [139]:https://leetcode.com/problems/word-break/#/description
 [152]:https://leetcode.com/problems/maximum-product-subarray/#/description
+[198]:https://leetcode.com/problems/house-robber/#/description
+[213]:https://leetcode.com/problems/house-robber-ii/#/description
+[221]:https://leetcode.com/problems/maximal-square/#/description
+[263]:https://leetcode.com/problems/ugly-number/#/description
+[264]:https://leetcode.com/problems/ugly-number-ii/#/description
+[279]:https://leetcode.com/problems/perfect-squares/#/description
+[300]:https://leetcode.com/problems/longest-increasing-subsequence/#/description
+[303]:https://leetcode.com/problems/range-sum-query-immutable/#/description
