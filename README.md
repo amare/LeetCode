@@ -118,6 +118,14 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |279|[Perfect Squares][279]&clubs;|[C++](./279_Perfect_Squares/perfect_squares.h)|Medium|2017/04/09|
 |300|[Longest Increasing Subsequence][300]&diams;|[C++](./300_Longest_Increasing_Subsequence/longest_increasing_subsequence.h)|Medium|2017/04/09|
 |303|[Range Sum Query Immutable][303]|[C++](./303_Range_Sum_Query_Immutable/range_sum_query_immutable.h)|Easy|2017/04/09|
+|322|[Coin Change][322]|[C++](./322_Coin_Change/coin_change.h)|Medium|2017/04/09|
+|304|[Range Sum Query 2D Immutable][304]|[C++](./304_Range_Sum_Query_2D_Immutable/range_sum_query_2d_immutable.h)|Medium|2017/04/10|
+|309|[Best Time to Buy and Sell Stock with Cooldown][309]&spades;&clubs;|[C++](./309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown/best_time_to_buy_and_sell_stock_with_cooldown.h)|Medium|2017/04/10|
+|136|[Single Number][136]&spades;|[C++](./136_Single_Number/single_number.h)|Easy|2017/04/10|
+|338|[Counting Bits][338]&diams;|[C++](./338_Counting_Bits/counting_bits.h)|Medium|2017/04/11|
+|343|[Integer Break][343]&diams;|[C++](./343_Integer_Break/integer_break.h)|Medium|2017/04/11|
+|357|[Count Numbers with Unique Digits][357]&diams;|[C++](./357_Count_Numbers_with_Unique_Digits/count_numbers_with_unique_digits.h)|Medium|2017/04/11|
+|368|[Largest Divisible Subset][368]&clubs;|[C++](./368_Largest_Divisible_Subset/largest_divisible_subset.h)|Medium|2017/04/11|
 <!-- insert flag -->
 
 
@@ -225,3 +233,11 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [279]:https://leetcode.com/problems/perfect-squares/#/description
 [300]:https://leetcode.com/problems/longest-increasing-subsequence/#/description
 [303]:https://leetcode.com/problems/range-sum-query-immutable/#/description
+[322]:https://leetcode.com/problems/coin-change/#/description
+[304]:https://leetcode.com/problems/range-sum-query-2d-immutable/#/description
+[309]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/#/description
+[136]:https://leetcode.com/problems/single-number/#/description
+[338]:https://leetcode.com/problems/counting-bits/#/description
+[343]:https://leetcode.com/problems/integer-break/#/description
+[357]:https://leetcode.com/problems/count-numbers-with-unique-digits/#/description
+[368]:https://leetcode.com/problems/largest-divisible-subset/#/description
