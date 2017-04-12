@@ -8,6 +8,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |&spades;|fundamental|
 |&clubs;|complexity|
 |&diams;|regular pattern|
+|&curren;|not seen yet|
 
 
 ### LeetCode Algorithm
@@ -126,6 +127,12 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |343|[Integer Break][343]&diams;|[C++](./343_Integer_Break/integer_break.h)|Medium|2017/04/11|
 |357|[Count Numbers with Unique Digits][357]&diams;|[C++](./357_Count_Numbers_with_Unique_Digits/count_numbers_with_unique_digits.h)|Medium|2017/04/11|
 |368|[Largest Divisible Subset][368]&clubs;|[C++](./368_Largest_Divisible_Subset/largest_divisible_subset.h)|Medium|2017/04/11|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal][106]|[C++](./106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/construct_binary_tree_from_inorder_and_postorder_traversal.h)|Medium|2017/04/12|
+|107|[Binary Tree Level Order Traversal II][107]&spades;|[C++](./107_Binary_Tree_Level_Order_Traversal_II/binary_tree_level_order_traversal_ii.h)|Easy|2017/04/12|
+|110|[Balanced Binary Tree][110]&spades;|[C++](./110_Balanced_Binary_Tree/balanced_binary_tree.h)|Easy|2017/04/12|
+|111|[Minimum Depth of Binary Tree][111]&spades;|[C++](./111_Minimum_Depth_of_Binary_Tree/minimum_depth_of_binary_tree.h)|Easy|2017/04/12|
+|112|[Path Sum][112]&clubs;|[C++](./112_Path_Sum/path_sum.h)|Easy|2017/04/12|
+|113|[Path Sum II][113]|[C++](./113_Path_Sum_II/path_sum_ii.h)|Medium|2017/04/12|
 <!-- insert flag -->
 
 
@@ -241,3 +248,9 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [343]:https://leetcode.com/problems/integer-break/#/description
 [357]:https://leetcode.com/problems/count-numbers-with-unique-digits/#/description
 [368]:https://leetcode.com/problems/largest-divisible-subset/#/description
+[106]:https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/#/description
+[107]:https://leetcode.com/problems/binary-tree-level-order-traversal-ii/#/description
+[110]:https://leetcode.com/problems/balanced-binary-tree/#/description
+[111]:https://leetcode.com/problems/minimum-depth-of-binary-tree/#/description
+[112]:https://leetcode.com/problems/path-sum/#/description
+[113]:https://leetcode.com/problems/path-sum-ii/#/description
