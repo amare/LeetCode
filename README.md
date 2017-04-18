@@ -133,6 +133,13 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |111|[Minimum Depth of Binary Tree][111]&spades;|[C++](./111_Minimum_Depth_of_Binary_Tree/minimum_depth_of_binary_tree.h)|Easy|2017/04/12|
 |112|[Path Sum][112]&clubs;|[C++](./112_Path_Sum/path_sum.h)|Easy|2017/04/12|
 |113|[Path Sum II][113]|[C++](./113_Path_Sum_II/path_sum_ii.h)|Medium|2017/04/12|
+|109|[Convert Sorted List to Binary Search Tree][109]&spades;|[C++](./109_Convert_Sorted_List_to_Binary_Search_Tree/convert_sorted_list_to_binary_search_tree.h)|Medium|2017/04/13|
+|138|[Copy List with Random Pointer][138]&spades;|[C++](./138_Copy_List_with_Random_Pointer/copy_list_with_random_pointer.h)|Medium|2017/04/13|
+|89|[Gray Code][89]|[C++](./089_Gray_Code/gray_code.h)|Medium|2017/04/18|
+|93|[Restore IP Addresses][93]|[C++](./093_Restore_IP_Addresses/restore_ip_addresses.h)|Medium|2017/04/18|
+|131|[Palindrome Partitioning][131]|[C++](./131_Palindrome_Partitioning/palindrome_partitioning.h)|Medium|2017/04/18|
+|216|[Combination Sum III][216]|[C++](./216_Combination_Sum_III/combination_sum_iii.h)|Medium|2017/04/18|
+|401|[Binary Watch][401]|[C++](./401_Binary_Watch/binary_watch.h)|Easy|2017/04/18|
 <!-- insert flag -->
 
 
@@ -254,3 +261,10 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [111]:https://leetcode.com/problems/minimum-depth-of-binary-tree/#/description
 [112]:https://leetcode.com/problems/path-sum/#/description
 [113]:https://leetcode.com/problems/path-sum-ii/#/description
+[109]:https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/#/description
+[138]:https://leetcode.com/problems/copy-list-with-random-pointer/#/description
+[89]:https://leetcode.com/problems/gray-code/#/description
+[93]:https://leetcode.com/problems/restore-ip-addresses/#/description
+[131]:https://leetcode.com/problems/palindrome-partitioning/#/description
+[216]:https://leetcode.com/problems/combination-sum-iii/#/description
+[401]:https://leetcode.com/problems/binary-watch/#/description
