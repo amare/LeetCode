@@ -135,11 +135,20 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |113|[Path Sum II][113]|[C++](./113_Path_Sum_II/path_sum_ii.h)|Medium|2017/04/12|
 |109|[Convert Sorted List to Binary Search Tree][109]&spades;|[C++](./109_Convert_Sorted_List_to_Binary_Search_Tree/convert_sorted_list_to_binary_search_tree.h)|Medium|2017/04/13|
 |138|[Copy List with Random Pointer][138]&spades;|[C++](./138_Copy_List_with_Random_Pointer/copy_list_with_random_pointer.h)|Medium|2017/04/13|
-|89|[Gray Code][89]|[C++](./089_Gray_Code/gray_code.h)|Medium|2017/04/18|
-|93|[Restore IP Addresses][93]|[C++](./093_Restore_IP_Addresses/restore_ip_addresses.h)|Medium|2017/04/18|
+|89|[Gray Code][89]&clubs;|[C++](./089_Gray_Code/gray_code.h)|Medium|2017/04/18|
+|93|[Restore IP Addresses][93]&clubs;|[C++](./093_Restore_IP_Addresses/restore_ip_addresses.h)|Medium|2017/04/18|
 |131|[Palindrome Partitioning][131]|[C++](./131_Palindrome_Partitioning/palindrome_partitioning.h)|Medium|2017/04/18|
 |216|[Combination Sum III][216]|[C++](./216_Combination_Sum_III/combination_sum_iii.h)|Medium|2017/04/18|
 |401|[Binary Watch][401]|[C++](./401_Binary_Watch/binary_watch.h)|Easy|2017/04/18|
+|16|[3Sum Closest][16]|[C++](./016_3Sum_Closest/3sum_closest.h)|Medium|2017/04/20|
+|18|[4Sum][18]&spades;|[C++](./018_4Sum/4sum.h)|Medium|2017/04/20|
+|27|[Remove Element][27]|[C++](./027_Remove_Element/remove_element.h)|Easy|2017/04/20|
+|208|[Implement Trie][208]&spades;|[C++](./208_Implement_Trie/implement_trie.h)|Medium|2017/04/20|
+|211|[Add and Search Word Data structure design][211]&spades;|[C++](./211_Add_and_Search_Word_Data_structure_design/add_and_search_word_data_structure_design.h)|Medium|2017/04/20|
+|374|[Guess Number Higher or Lower][374]|[C++](./374_Guess_Number_Higher_or_Lower/guess_number_higher_or_lower.h)|Easy|2017/04/20|
+|375|[Guess Number Higher or Lower II][375]&clubs;|[C++](./375_Guess_Number_Higher_or_Lower_II/guess_number_higher_or_lower_ii.h)|Medium|2017/04/20|
+|421|[Maximum XOR of Two Numbers in an Array][421]&clubs;|[C++](./421_Maximum_XOR_of_Two_Numbers_in_an_Array/maximum_xor_of_two_numbers_in_an_array.h)|Medium|2017/04/20|
+|526|[Beautiful Arrangement][526]|[C++](./526_Beautiful_Arrangement/beautiful_arrangement.h)|Medium|2017/04/20|
 <!-- insert flag -->
 
 
@@ -268,3 +277,12 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [131]:https://leetcode.com/problems/palindrome-partitioning/#/description
 [216]:https://leetcode.com/problems/combination-sum-iii/#/description
 [401]:https://leetcode.com/problems/binary-watch/#/description
+[16]:https://leetcode.com/problems/3sum-closest/#/description
+[18]:https://leetcode.com/problems/4sum/#/description
+[27]:https://leetcode.com/problems/remove-element/#/description
+[208]:https://leetcode.com/problems/implement-trie-prefix-tree/#/description
+[211]:https://leetcode.com/problems/add-and-search-word-data-structure-design/#/description
+[374]:https://leetcode.com/problems/guess-number-higher-or-lower/#/description
+[375]:https://leetcode.com/problems/guess-number-higher-or-lower-ii/#/description
+[421]:https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/#/description
+[526]:https://leetcode.com/problems/beautiful-arrangement/#/description
