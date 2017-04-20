@@ -12,4 +12,5 @@ __Solution Step__:
 
 ------
  - [based on Directions](https://discuss.leetcode.com/topic/15558/a-concise-c-implementation-based-on-directions)
+ - [Maybe Better](https://discuss.leetcode.com/topic/3713/super-simple-and-easy-to-understand-solution)
 

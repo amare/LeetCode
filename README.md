@@ -38,7 +38,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |29|[Divide Two Integers][29]|[C++](029_Divide_Two_Integers/divide_two_integers.h)|Medium|2017/03/14|
 |33|[Search in Rotated Sorted Array][33]|[C++](033_Search_in_Rotated_Sorted_Array/search_in_rotated_sorted_array.h)|Medium|2017/03/16|
 |34|[Search for a Range][34]|[C++](034_Search_for_a_Range/search_for_a_range.h)|Medium|2017/03/16|
-|35|[Valid Sudoku][35]|[C++](036_Valid_Sudoku/valid_sudoku.h)|Medium|2017/03/17|
+|36|[Valid Sudoku][36]|[C++](036_Valid_Sudoku/valid_sudoku.h)|Medium|2017/03/17|
 |38|[Count and Say][38]|[C++](038_Count_and_Say/count_and_say.h)|Easy|2017/03/17|
 |41|[First Missing Positive][41]|[C++](041_First_Missing_Positive/first_missing_positive.h)|Hard|2017/03/17|
 |42|[Trapping Rain Water][42]|[C++](042_Trapping_Rain_Water/trapping_rain_water.h)|Hard|2017/03/18|
@@ -149,6 +149,11 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |375|[Guess Number Higher or Lower II][375]&clubs;|[C++](./375_Guess_Number_Higher_or_Lower_II/guess_number_higher_or_lower_ii.h)|Medium|2017/04/20|
 |421|[Maximum XOR of Two Numbers in an Array][421]&clubs;|[C++](./421_Maximum_XOR_of_Two_Numbers_in_an_Array/maximum_xor_of_two_numbers_in_an_array.h)|Medium|2017/04/20|
 |526|[Beautiful Arrangement][526]|[C++](./526_Beautiful_Arrangement/beautiful_arrangement.h)|Medium|2017/04/20|
+|31|[Next Permutation][31]&diams;|[C++](./031_Next_Permutation/next_permutation.h)|Medium|2017/04/20|
+|35|[Search Insert Position][35]&spades;|[C++](./035_Search_Insert_Position/search_insert_position.h)|Easy|2017/04/20|
+|59|[Spiral Matrix II][59]&spades;|[C++](./059_Spiral_Matrix_II/spiral_matrix_ii.h)|Medium|2017/04/20|
+|74|[Search a 2D Matrix][74]&clubs;|[C++](./074_Search_a_2D_Matrix/search_a_2d_matrix.h)|Medium|2017/04/20|
+|167|[Two Sum II Input array is sorted][167]|[C++](./167_Two_Sum_II_Input_array_is_sorted/two_sum_ii.h)|Easy|2017/04/20|
 <!-- insert flag -->
 
 
@@ -175,7 +180,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [29]:https://leetcode.com/problems/divide-two-integers
 [33]:https://leetcode.com/problems/search-in-rotated-sorted-array
 [34]:https://leetcode.com/problems/search-for-a-range
-[35]:https://leetcode.com/problems/valid-sudoku
+[36]:https://leetcode.com/problems/valid-sudoku
 [38]:https://leetcode.com/problems/count-and-say
 [41]:https://leetcode.com/problems/first-missing-positive
 [42]:https://leetcode.com/problems/trapping-rain-water
@@ -286,3 +291,8 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [375]:https://leetcode.com/problems/guess-number-higher-or-lower-ii/#/description
 [421]:https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/#/description
 [526]:https://leetcode.com/problems/beautiful-arrangement/#/description
+[31]:https://leetcode.com/problems/next-permutation/#/description
+[35]:https://leetcode.com/problems/search-insert-position/#/description
+[59]:https://leetcode.com/problems/spiral-matrix-ii/#/description
+[74]:https://leetcode.com/problems/search-a-2d-matrix/#/description
+[167]:https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description
