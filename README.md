@@ -154,6 +154,15 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |59|[Spiral Matrix II][59]&spades;|[C++](./059_Spiral_Matrix_II/spiral_matrix_ii.h)|Medium|2017/04/20|
 |74|[Search a 2D Matrix][74]&clubs;|[C++](./074_Search_a_2D_Matrix/search_a_2d_matrix.h)|Medium|2017/04/20|
 |167|[Two Sum II Input array is sorted][167]|[C++](./167_Two_Sum_II_Input_array_is_sorted/two_sum_ii.h)|Easy|2017/04/20|
+|376|[Wiggle Subsequence][376]&clubs;|[C++](./376_Wiggle_Subsequence/wiggle_subsequence.h)|Medium|2017/04/24|
+|377|[Combination Sum IV][377]&clubs;|[C++](./377_Combination_Sum_IV/combination_sum_iv.h)|Medium|2017/04/24|
+|392|[Is Subsequence][392]|[C++](./392_Is_Subsequence/is_subsequence.h)|Medium|2017/04/24|
+|413|[Arithmetic Slices][413]|[C++](./413_Arithmetic_Slices/arithmetic_slices.h)|Medium|2017/04/24|
+|416|[Partition Equal Subset Sum][416]&spades;&clubs;|[C++](./416_Partition_Equal_Subset_Sum/partition_equal_subset_sum.h)|Medium|2017/04/24|
+|467|[Unique Substrings in Wraparound String][467]&diams;&clubs;|[C++](./467_Unique_Substrings_in_Wraparound_String/unique_substrings_in_wraparound_string.h)|Medium|2017/04/24|
+|486|[Predict the Winner][486]&spades;&clubs;|[C++](./486_Predict_the_Winner/predict_the_winner.h)|Medium|2017/04/24|
+|494|[Target Sum][494]&spades;|[C++](./494_Target_Sum/target_sum.h)|Medium|2017/04/24|
+|516|[Longest Palindromic Subsequence][516]|[C++](./516_Longest_Palindromic_Subsequence/longest_palindromic_subsequence.h)|Medium|2017/04/24|
 <!-- insert flag -->
 
 
@@ -296,3 +305,12 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [59]:https://leetcode.com/problems/spiral-matrix-ii/#/description
 [74]:https://leetcode.com/problems/search-a-2d-matrix/#/description
 [167]:https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/#/description
+[376]:https://leetcode.com/problems/wiggle-subsequence/#/description
+[377]:https://leetcode.com/problems/combination-sum-iv/#/description
+[392]:https://leetcode.com/problems/is-subsequence/#/description
+[413]:https://leetcode.com/problems/arithmetic-slices/#/description
+[416]:https://leetcode.com/problems/partition-equal-subset-sum/#/description
+[467]:https://leetcode.com/problems/unique-substrings-in-wraparound-string/#/description
+[486]:https://leetcode.com/problems/predict-the-winner/#/description
+[494]:https://leetcode.com/problems/target-sum/#/description
+[516]:https://leetcode.com/problems/longest-palindromic-subsequence/#/description
