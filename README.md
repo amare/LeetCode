@@ -163,6 +163,13 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |486|[Predict the Winner][486]&spades;&clubs;|[C++](./486_Predict_the_Winner/predict_the_winner.h)|Medium|2017/04/24|
 |494|[Target Sum][494]&spades;|[C++](./494_Target_Sum/target_sum.h)|Medium|2017/04/24|
 |516|[Longest Palindromic Subsequence][516]|[C++](./516_Longest_Palindromic_Subsequence/longest_palindromic_subsequence.h)|Medium|2017/04/24|
+|80|[Remove Duplicates from Sorted Array II][80]&clubs;|[C++](./080_Remove_Duplicates_from_Sorted_Array_II/remove_duplicates_from_sorted_array_ii.h)|Medium|2017/04/26|
+|119|[Pascals Triangle II][119]&spades;|[C++](./119_Pascals_Triangle_II/pascals_triangle_ii.h)|Easy|2017/04/26|
+|153|[Find Minimum in Rotated Sorted Array][153]&spades;&clubs;|[C++](./153_Find_Minimum_in_Rotated_Sorted_Array/find_minimum_in_rotated_sorted_array.h)|Medium|2017/04/26|
+|217|[Contains Duplicate][217]|[C++](./217_Contains_Duplicate/contains_duplicate.h)|Easy|2017/04/26|
+|219|[Contains Duplicate II][219]&diams;|[C++](./219_Contains_Duplicate_II/contains_duplicate_ii.h)|Easy|2017/04/26|
+|464|[Continuous Subarray Sum][464]&diams;|[C++](./464_Continuous_Subarray_Sum/continuous_subarray_sum.h)|Medium|2017/04/26|
+|530|[Minimum Absolute Difference in BST][530]|[C++](./530_Minimum_Absolute_Difference_in_BST/minimum_absolute_difference_in_bst.h)|Easy|2017/04/26|
 <!-- insert flag -->
 
 
@@ -314,3 +321,10 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [486]:https://leetcode.com/problems/predict-the-winner/#/description
 [494]:https://leetcode.com/problems/target-sum/#/description
 [516]:https://leetcode.com/problems/longest-palindromic-subsequence/#/description
+[80]:https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/#/description
+[119]:https://leetcode.com/problems/pascals-triangle-ii/#/description
+[153]:https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description
+[217]:https://leetcode.com/problems/contains-duplicate/#/description
+[219]:https://leetcode.com/problems/contains-duplicate-ii/#/description
+[464]:https://leetcode.com/problems/continuous-subarray-sum/#/description
+[530]:https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description
