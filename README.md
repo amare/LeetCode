@@ -170,6 +170,17 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |219|[Contains Duplicate II][219]&diams;|[C++](./219_Contains_Duplicate_II/contains_duplicate_ii.h)|Easy|2017/04/26|
 |464|[Continuous Subarray Sum][464]&diams;|[C++](./464_Continuous_Subarray_Sum/continuous_subarray_sum.h)|Medium|2017/04/26|
 |530|[Minimum Absolute Difference in BST][530]|[C++](./530_Minimum_Absolute_Difference_in_BST/minimum_absolute_difference_in_bst.h)|Easy|2017/04/26|
+|06|[ZigZag Conversion][06]|[C++](./006_ZigZag_Conversion/zigzag_conversion.h)|Medium|2017/05/02|
+|81|[Search in Rotated Sorted Array II][81]&spades;|[C++](./081_Search_in_Rotated_Sorted_Array_II/search_in_rotated_sorted_array_ii.h)|Medium|2017/05/02|
+|143|[Reorder List][143]|[C++](./143_Reorder_List/reorder_list.h)|Medium|2017/05/02|
+|151|[Reverse Words in a String][151]|[C++](./151_Reverse_Words_in_a_String/reverse_words_in_a_string.h)|Medium|2017/05/02|
+|160|[Intersection of Two Linked Lists][160]&spades;|[C++](./160_Intersection_of_Two_Linked_Lists/intersection_of_two_linked_lists.h)|Easy|2017/05/02|
+|162|[Find Peak Element][162]|[C++](./162_Find_Peak_Element/find_peak_element.h)|Medium|2017/05/02|
+|234|[Palindrome Linked List][234]|[C++](./234_Palindrome_Linked_List/palindrome_linked_list.h)|Easy|2017/05/02|
+|344|[Reverse String][344]|[C++](./344_Reverse_String/reverse_string.h)|Easy|2017/05/02|
+|345|[Reverse Vowels of a String][345]|[C++](./345_Reverse_Vowels_of_a_String/reverse_vowels_of_a_string.h)|Easy|2017/05/02|
+|383|[Ransom Note][383]|[C++](./383_Ransom_Note/ransom_note.h)|Easy|2017/05/02|
+|434|[Number of Segments in a String][434]|[C++](./434_Number_of_Segments_in_a_String/number_of_segments_in_a_string.h)|Easy|2017/05/02|
 <!-- insert flag -->
 
 
@@ -328,3 +339,14 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [219]:https://leetcode.com/problems/contains-duplicate-ii/#/description
 [464]:https://leetcode.com/problems/continuous-subarray-sum/#/description
 [530]:https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description
+[06]:https://leetcode.com/problems/zigzag-conversion/#/description
+[81]:https://leetcode.com/problems/search-in-rotated-sorted-array-ii/#/description
+[143]:https://leetcode.com/problems/reorder-list/#/description
+[151]:https://leetcode.com/problems/reverse-words-in-a-string/#/description
+[160]:https://leetcode.com/problems/intersection-of-two-linked-lists/#/description
+[162]:https://leetcode.com/problems/find-peak-element/#/description
+[234]:https://leetcode.com/problems/palindrome-linked-list/#/description
+[344]:https://leetcode.com/problems/reverse-string/#/description
+[345]:https://leetcode.com/problems/reverse-vowels-of-a-string/#/description
+[383]:https://leetcode.com/problems/ransom-note/#/description
+[434]:https://leetcode.com/problems/number-of-segments-in-a-string/#/description
