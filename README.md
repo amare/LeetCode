@@ -168,7 +168,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |153|[Find Minimum in Rotated Sorted Array][153]&spades;&clubs;|[C++](./153_Find_Minimum_in_Rotated_Sorted_Array/find_minimum_in_rotated_sorted_array.h)|Medium|2017/04/26|
 |217|[Contains Duplicate][217]|[C++](./217_Contains_Duplicate/contains_duplicate.h)|Easy|2017/04/26|
 |219|[Contains Duplicate II][219]&diams;|[C++](./219_Contains_Duplicate_II/contains_duplicate_ii.h)|Easy|2017/04/26|
-|464|[Continuous Subarray Sum][464]&diams;|[C++](./464_Continuous_Subarray_Sum/continuous_subarray_sum.h)|Medium|2017/04/26|
+|523|[Continuous Subarray Sum][523]&diams;|[C++](./523_Continuous_Subarray_Sum/continuous_subarray_sum.h)|Medium|2017/04/26|
 |530|[Minimum Absolute Difference in BST][530]|[C++](./530_Minimum_Absolute_Difference_in_BST/minimum_absolute_difference_in_bst.h)|Easy|2017/04/26|
 |06|[ZigZag Conversion][06]|[C++](./006_ZigZag_Conversion/zigzag_conversion.h)|Medium|2017/05/02|
 |81|[Search in Rotated Sorted Array II][81]&spades;|[C++](./081_Search_in_Rotated_Sorted_Array_II/search_in_rotated_sorted_array_ii.h)|Medium|2017/05/02|
@@ -181,6 +181,16 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |345|[Reverse Vowels of a String][345]|[C++](./345_Reverse_Vowels_of_a_String/reverse_vowels_of_a_string.h)|Easy|2017/05/02|
 |383|[Ransom Note][383]|[C++](./383_Ransom_Note/ransom_note.h)|Easy|2017/05/02|
 |434|[Number of Segments in a String][434]|[C++](./434_Number_of_Segments_in_a_String/number_of_segments_in_a_string.h)|Easy|2017/05/02|
+|09|[Palindrome Number][09]&spades;|[C++](./009_Palindrome_Number/palindrome_number.h)|Easy|2017/05/04|
+|189|[Rotate Array][189]&spades;|[C++](./189_Rotate_Array/rotate_array.h)|Easy|2017/05/04|
+|202|[Happy Number][202]&spades;|[C++](./202_Happy_Number/happy_number.h)|Easy|2017/05/04|
+|204|[Count Primes][204]&spades;&spades;|[C++](./204_Count_Primes/count_primes.h)|Easy|2017/05/04|
+|205|[Isomorphic Strings][205]&spades;|[C++](./205_Isomorphic_Strings/isomorphic_strings.h)|Easy|2017/05/04|
+|237|[Delete Node in a Linked List][237]&spades;|[C++](./237_Delete_Node_in_a_Linked_List/delete_node_in_a_linked_list.h)|Easy|2017/05/04|
+|328|[Odd Even Linked List][328]|[C++](./328_Odd_Even_Linked_List/odd_even_linked_list.h)|Medium|2017/05/04|
+|445|[Add Two Numbers II][445]&spades;|[C++](./445_Add_Two_Numbers_II/add_two_numbers_ii.h)|Medium|2017/05/04|
+|464|[Can I Win][464]&clubs;&clubs;|[C++](./464_Can_I_Win/can_i_win.h)|Medium|2017/05/04|
+|474|[Ones and Zeroes][474]&clubs;|[C++](./474_Ones_and_Zeroes/ones_and_zeroes.h)|Medium|2017/05/04|
 <!-- insert flag -->
 
 
@@ -337,7 +347,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [153]:https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/#/description
 [217]:https://leetcode.com/problems/contains-duplicate/#/description
 [219]:https://leetcode.com/problems/contains-duplicate-ii/#/description
-[464]:https://leetcode.com/problems/continuous-subarray-sum/#/description
+[523]:https://leetcode.com/problems/continuous-subarray-sum/#/description
 [530]:https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description
 [06]:https://leetcode.com/problems/zigzag-conversion/#/description
 [81]:https://leetcode.com/problems/search-in-rotated-sorted-array-ii/#/description
@@ -350,3 +360,13 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [345]:https://leetcode.com/problems/reverse-vowels-of-a-string/#/description
 [383]:https://leetcode.com/problems/ransom-note/#/description
 [434]:https://leetcode.com/problems/number-of-segments-in-a-string/#/description
+[09]:https://leetcode.com/problems/palindrome-number/#/description
+[189]:https://leetcode.com/problems/rotate-array/#/description
+[202]:https://leetcode.com/problems/happy-number/#/description
+[204]:https://leetcode.com/problems/count-primes/#/description
+[205]:https://leetcode.com/problems/isomorphic-strings/#/description
+[237]:https://leetcode.com/problems/delete-node-in-a-linked-list/#/description
+[328]:https://leetcode.com/problems/odd-even-linked-list/#/description
+[445]:https://leetcode.com/problems/add-two-numbers-ii/#/description
+[464]:https://leetcode.com/problems/can-i-win/#/description
+[474]:https://leetcode.com/problems/ones-and-zeroes/#/description
