@@ -191,6 +191,14 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |445|[Add Two Numbers II][445]&spades;|[C++](./445_Add_Two_Numbers_II/add_two_numbers_ii.h)|Medium|2017/05/04|
 |464|[Can I Win][464]&clubs;&clubs;|[C++](./464_Can_I_Win/can_i_win.h)|Medium|2017/05/04|
 |474|[Ones and Zeroes][474]&clubs;|[C++](./474_Ones_and_Zeroes/ones_and_zeroes.h)|Medium|2017/05/04|
+|43|[Multiply Strings][43]&clubs;|[C++](./043_Multiply_Strings/multiply_strings.h)|Medium|2017/05/07|
+|114|[Flatten Binary Tree to Linked List][114]&spades;|[C++](./114_Flatten_Binary_Tree_to_Linked_List/flatten_binary_tree_to_linked_list.h)|Medium|2017/05/07|
+|117|[Populating Next Right Pointers in Each Node II][117]&clubs;|[C++](./117_Populating_Next_Right_Pointers_in_Each_Node_II/populating_next_right_pointers_in_each_node_ii.h)|Medium|2017/05/07|
+|129|[Sum Root to Leaf Numbers][129]&spades;|[C++](./129_Sum_Root_to_Leaf_Numbers/sum_root_to_leaf_numbers.h)|Medium|2017/05/07|
+|144|[Binary Tree Preorder Traversal][144]&spades;|[C++](./144_Binary_Tree_Preorder_Traversal/binary_tree_preorder_traversal.h)|Medium|2017/05/07|
+|145|[Binary Tree Postorder Traversal][145]&spades;|[C++](./145_Binary_Tree_Postorder_Traversal/binary_tree_postorder_traversal.h)|Hard|2017/05/07|
+|209|[Minimum Size Subarray Sum][209]&clubs;|[C++](./209_Minimum_Size_Subarray_Sum/minimum_size_subarray_sum.h)|Medium|2017/05/07|
+|415|[Add Strings][415]&spades;|[C++](./415_Add_Strings/add_strings.h)|Easy|2017/05/07|
 <!-- insert flag -->
 
 
@@ -370,3 +378,11 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [445]:https://leetcode.com/problems/add-two-numbers-ii/#/description
 [464]:https://leetcode.com/problems/can-i-win/#/description
 [474]:https://leetcode.com/problems/ones-and-zeroes/#/description
+[43]:https://leetcode.com/problems/multiply-strings/#/description
+[114]:https://leetcode.com/problems/flatten-binary-tree-to-linked-list/#/description
+[117]:https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/#/submissions/1
+[129]:https://leetcode.com/problems/sum-root-to-leaf-numbers/#/description
+[144]:https://leetcode.com/problems/binary-tree-preorder-traversal/#/description
+[145]:https://leetcode.com/problems/binary-tree-postorder-traversal/#/description
+[209]:https://leetcode.com/problems/minimum-size-subarray-sum/#/description
+[415]:https://leetcode.com/problems/add-strings/#/description
