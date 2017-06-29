@@ -199,6 +199,53 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |145|[Binary Tree Postorder Traversal][145]&spades;|[C++](./145_Binary_Tree_Postorder_Traversal/binary_tree_postorder_traversal.h)|Hard|2017/05/07|
 |209|[Minimum Size Subarray Sum][209]&clubs;|[C++](./209_Minimum_Size_Subarray_Sum/minimum_size_subarray_sum.h)|Medium|2017/05/07|
 |415|[Add Strings][415]&spades;|[C++](./415_Add_Strings/add_strings.h)|Easy|2017/05/07|
+|71|[Simplify Path][71]&spades;|[C++](./071_Simplify_Path/simplify_path.h)|Medium|2017/05/17|
+|127|[Word Ladder][127]&spades;&clubs;|[C++](./127_Word_Ladder/word_ladder.h)|Medium|2017/05/17|
+|147|[Insertion Sort List][147]&spades;|[C++](./147_Insertion_Sort_List/insertion_sort_list.h)|Medium|2017/05/17|
+|148|[Sort List][148]&spades;|[C++](./148_Sort_List/sort_list.h)|Medium|2017/05/17|
+|228|[Summary Ranges][228]|[C++](./228_Summary_Ranges/summary_ranges.h)|Medium|2017/05/17|
+|230|[Kth Smallest Element in a BST][230]&spades;|[C++](./230_Kth_Smallest_Element_in_a_BST/kth_smallest_element_in_a_bst.h)|Medium|2017/05/17|
+|290|[Word Pattern][290]&spades;|[C++](./290_Word_Pattern/word_pattern.h)|Easy|2017/05/17|
+|349|[Intersection of Two Arrays][349]|[C++](./349_Intersection_of_Two_Arrays/intersection_of_two_arrays.h)|Easy|2017/05/17|
+|350|[Intersection of Two Arrays II][350]&spades;|[C++](./350_Intersection_of_Two_Arrays_II/intersection_of_two_arrays_ii.h)|Easy|2017/05/17|
+|441|[Arranging Coins][441]&diams;|[C++](./441_Arranging_Coins/arranging_coins.h)|Easy|2017/05/17|
+|130|[Surrounded Regions][130]&spades;|[C++](./130_Surrounded_Regions/surrounded_regions.h)|Medium|2017/06/02|
+|133|[Clone Graph][133]&spades;&spades;|[C++](./133_Clone_Graph/clone_graph.h)|Medium|2017/06/02|
+|137|[Single Number II][137]&spades;|[C++](./137_Single_Number_II/single_number_ii.h)|Medium|2017/06/02|
+|155|[Min Stack][155]&spades;|[C++](./155_Min_Stack/min_stack.h)|Easy|2017/06/02|
+|165|[Compare Version Numbers][165]&diams;|[C++](./165_Compare_Version_Numbers/compare_version_numbers.h)|Medium|2017/06/02|
+|168|[Excel Sheet Column Title][168]&spades;|[C++](./168_Excel_Sheet_Column_Title/excel_sheet_column_title.h)|Easy|2017/06/02|
+|171|[Excel Sheet Column Number][171]&spades;|[C++](./171_Excel_Sheet_Column_Number/excel_sheet_column_number.h)|Easy|2017/06/02|
+|190|[Reverse Bits][190]|[C++](./190_Reverse_Bits/reverse_bits.h)|Easy|2017/06/02|
+|191|[Number of 1 Bits][191]&spades;|[C++](./191_Number_of_1_Bits/number_of_1_bits.h)|Easy|2017/06/02|
+|207|[Course Schedule][207]&spades;&diams;|[C++](./207_Course_Schedule/course_schedule.h)|Medium|2017/06/02|
+|260|[Single Number III][260]&spades;&spades;|[C++](./260_Single_Number_III/single_number_iii.h)|Medium|2017/06/02|
+|475|[Heaters][475]&spades;&sapdes;|[C++](./475_Heaters/heaters.h)|Easy|2017/06/02|
+|521|[Longest Uncommon Subsequence I][521]|[C++](./521_Longest_Uncommon_Subsequence_I/longest_uncommon_subsequence_i.h)|Easy|2017/06/02|
+|522|[Longest Uncommon Subsequence II][522]&diams;|[C++](./522_Longest_Uncommon_Subsequence_II/longest_uncommon_subsequence_ii.h)|Medium|2017/06/02|
+|12|[Integer to Roman][12]&diams;|[C++](./012_Integer_to_Roman/integer_to_roman.h)|Medium|2017/06/29|
+|97|[Interleaving String][97]&spades;&spades;|[C++](./097_Interleaving_String/interleaving_string.h)|Hard|2017/06/29|
+|134|[Gas Station][134]&clubs;|[C++](./134_Gas_Station/gas_station.h)|Medium|2017/06/29|
+|150|[Evaluate Reverse Polish Notation][150]|[C++](./150_Evaluate_Reverse_Polish_Notation/evaluate_reverse_polish_notation.h)|Medium|2017/06/29|
+|166|[Fraction to Recurring Decimal][166]&clubs;|[C++](./166_Fraction_to_Recurring_Decimal/fraction_to_recurring_decimal.h)|Medium|2017/06/29|
+|172|[Factorial Trailing Zeroes][172]&diams;|[C++](./172_Factorial_Trailing_Zeroes/factorial_trailing_zeroes.h)|Easy|2017/06/29|
+|173|[Binary Search Tree Iterator][173]|[C++](./173_Binary_Search_Tree_Iterator/binary_search_tree_iterator.h)|Medium|2017/06/29|
+|179|[Largest Number][179]&spades;|[C++](./179_Largest_Number/largest_number.h)|Medium|2017/06/29|
+|187|[Repeated DNA Sequences][187]&spades;&spades;|[C++](./187_Repeated_DNA_Sequences/repeated_dna_sequences.h)|Medium|2017/06/29|
+|199|[Binary Tree Right Side View][199]|[C++](./199_Binary_Tree_Right_Side_View/binary_tree_right_side_view.h)|Medium|2017/06/29|
+|200|[Number of Islands][200]&spades;&spades;|[C++](./200_Number_of_Islands/number_of_islands.h)|Medium|2017/06/29|
+|201|[Bitwise AND of Numbers Range][201]&clubs;|[C++](./201_Bitwise_AND_of_Numbers_Range/bitwise_and_of_numbers_range.h)|Medium|2017/06/29|
+|210|[Course Schedule II][210]&spades;&clubs;|[C++](./210_Course_Schedule_II/course_schedule_ii.h)|Medium|2017/06/29|
+|220|[Contains Duplicate III][220]&clubs;|[C++](./220_Contains_Duplicate_III/contains_duplicate_iii.h)|Medium|2017/06/29|
+|222|[Count Complete Tree Nodes][222]&spades;|[C++](./222_Count_Complete_Tree_Nodes/count_complete_tree_nodes.h)|Medium|2017/06/29|
+|223|[Rectangle Area][223]|[C++](./223_Rectangle_Area/rectangle_area.h)|Medium|2017/06/29|
+|225|[Implement Stack using Queues][225]&spades;&spades;|[C++](./225_Implement_Stack_using_Queues/implement_stack_using_queues.h)|Easy|2017/06/29|
+|226|[Invert Binary Tree][226]|[C++](./226_Invert_Binary_Tree/invert_binary_tree.h)|Easy|2017/06/29|
+|231|[Power of Two][231]|[C++](./231_Power_of_Two/power_of_two.h)|Easy|2017/06/29|
+|326|[Power of Three][326]&spades;|[C++](./326_Power_of_Three/power_of_three.h)|Easy|2017/06/29|
+|342|[Power of Four][342]&spades;|[C++](./342_Power_of_Four/power_of_four.h)|Easy|2017/06/29|
+|400|[Nth Digit][400]&clubs;|[C++](./400_Nth_Digit/nth_digit.h)|Easy|2017/06/29|
+|581|[Shortest Unsorted Continuous Subarray][581]&clubs;|[C++](./581_Shortest_Unsorted_Continuous_Subarray/shortest_unsorted_continuous_subarray.h)|Easy|2017/06/29|
 <!-- insert flag -->
 
 
@@ -386,3 +433,50 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [145]:https://leetcode.com/problems/binary-tree-postorder-traversal/#/description
 [209]:https://leetcode.com/problems/minimum-size-subarray-sum/#/description
 [415]:https://leetcode.com/problems/add-strings/#/description
+[71]:https://leetcode.com/problems/simplify-path/#/description
+[127]:https://leetcode.com/problems/word-ladder/#/description
+[147]:https://leetcode.com/problems/insertion-sort-list/#/description
+[148]:https://leetcode.com/problems/sort-list/#/description
+[228]:https://leetcode.com/problems/summary-ranges/#/description
+[230]:https://leetcode.com/problems/kth-smallest-element-in-a-bst/#/description
+[290]:https://leetcode.com/problems/word-pattern/#/description
+[349]:https://leetcode.com/problems/intersection-of-two-arrays/#/description
+[350]:https://leetcode.com/problems/intersection-of-two-arrays-ii/#/description
+[441]:https://leetcode.com/problems/arranging-coins/#/description
+[130]:https://leetcode.com/problems/surrounded-regions/#/description
+[133]:https://leetcode.com/problems/clone-graph/#/description
+[137]:https://leetcode.com/problems/single-number-ii/#/description
+[155]:https://leetcode.com/problems/min-stack/#/description
+[165]:https://leetcode.com/problems/compare-version-numbers/#/description
+[168]:https://leetcode.com/problems/excel-sheet-column-title/#/description
+[171]:https://leetcode.com/problems/excel-sheet-column-number/#/description
+[190]:https://leetcode.com/problems/reverse-bits/#/description
+[191]:https://leetcode.com/problems/number-of-1-bits/#/description
+[207]:https://leetcode.com/problems/course-schedule/#/description
+[260]:https://leetcode.com/problems/single-number-iii/#/description
+[475]:https://leetcode.com/problems/heaters/#/description
+[521]:https://leetcode.com/problems/longest-uncommon-subsequence-i/#/description
+[522]:https://leetcode.com/problems/longest-uncommon-subsequence-ii/#/description
+[12]:https://leetcode.com/problems/integer-to-roman/#/description
+[97]:https://leetcode.com/problems/interleaving-string/#/description
+[134]:https://leetcode.com/problems/gas-station/#/description
+[150]:https://leetcode.com/problems/evaluate-reverse-polish-notation/#/description
+[166]:https://leetcode.com/problems/fraction-to-recurring-decimal/#/description
+[172]:https://leetcode.com/problems/factorial-trailing-zeroes/#/description
+[173]:https://leetcode.com/problems/binary-search-tree-iterator/#/description
+[179]:https://leetcode.com/problems/largest-number/#/description
+[187]:https://leetcode.com/problems/repeated-dna-sequences/#/description
+[199]:https://leetcode.com/problems/binary-tree-right-side-view/#/description
+[200]:https://leetcode.com/problems/number-of-islands/#/description
+[201]:https://leetcode.com/problems/bitwise-and-of-numbers-range/#/description
+[210]:https://leetcode.com/problems/course-schedule-ii/#/description
+[220]:https://leetcode.com/problems/contains-duplicate-iii/#/description
+[222]:https://leetcode.com/problems/count-complete-tree-nodes/#/description
+[223]:https://leetcode.com/problems/rectangle-area/#/description
+[225]:https://leetcode.com/problems/implement-stack-using-queues/#/description
+[226]:https://leetcode.com/problems/invert-binary-tree/#/description
+[231]:https://leetcode.com/problems/power-of-two/#/description
+[326]:https://leetcode.com/problems/power-of-three/#/description
+[342]:https://leetcode.com/problems/power-of-four/#/description
+[400]:https://leetcode.com/problems/nth-digit/#/description
+[581]:https://leetcode.com/problems/shortest-unsorted-continuous-subarray/#/description
