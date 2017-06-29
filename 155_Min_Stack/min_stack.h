@@ -1,7 +1,7 @@
 /*
  Author:            cuckoo
  Date:              2017/05/18 19:49:22
- Update:            
+ Update:            2017/06/29 19:31:29
  Problem:           Min Stack
  Difficulty:        Easy
  Source:            https://leetcode.com/problems/min-stack/#/description
@@ -44,7 +44,7 @@ using std::stack;
 //     stack<int> s2;
 // };
 
-// using only one stack
+// using only one stack - the best one
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -94,3 +94,52 @@ private:
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
+
+// update at 2017/06/29 19:34:41
+class MinStack3 {
+public:
+    MinStack3() {
+        // do initialization if necessary
+    }
+
+    void push(int number) {
+        // write your code here
+        if(s.empty() || number < s.top())
+        {
+            s.push(number);
+            s.push(number);
+        }
+        else
+        {
+            int min_val = s.top();
+            s.push(number);
+            s.push(min_val);
+        }
+    }
+
+    int pop() {
+        // write your code here
+        s.pop();
+        int result = s.top();
+        s.pop();
+        
+        return result;
+    }
+    
+    int top(){
+        int min_val = s.top();
+        s.pop();
+        int result = s.top();
+        s.push(min_val);
+        
+        return result;
+    }
+
+    int getMin() {
+        // write your code here
+        return s.top();
+    }
+    
+private:
+    stack<int> s;
+};
