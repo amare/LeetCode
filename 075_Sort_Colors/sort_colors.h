@@ -1,7 +1,7 @@
 /*
  Author:            cuckoo
  Date:              2017/03/27 15:54:39
- Update:            
+ Update:            2017/07/04 21:46:53
  Problem:           Sort Colors
  Difficulty:        Medium
  Source:            https://leetcode.com/problems/sort-colors/#/description
@@ -11,7 +11,7 @@
 #include <vector>
 using std::vector;
 
-#include <iostream>     // for std::swap()
+#include <algorithm>     // for std::swap()
 
 class Solution {
 public:
@@ -52,7 +52,8 @@ public:
             while(nums[i] == 2 && i < two) std::swap(nums[i], nums[two--]);
         }
     }
-    
+
+    // the best one
     void sortColors_3(vector<int> &nums)
     {
         int low = 0, k = 0, high = nums.size() - 1;
@@ -62,5 +63,25 @@ public:
             else if(nums[k] > 1) std::swap(nums[high--], nums[k]);
             else ++k;
         }
+    }
+    
+    // update at 2017/07/04
+    void sortColors_4(vector<int> &nums)
+    {
+        int red_count = 0, red_plus_white_count = 0;
+        for(int i = 0; i < nums.size(); ++i)
+        {
+            switch(nums[i])
+            {
+                case 0 : ++red_count;
+                case 1 : ++red_plus_white_count;break;
+                default: break;
+            }
+        }
+        
+        int k = 0;
+        while(k < red_count) nums[k++] = 0;
+        while(k < red_plus_white_count) nums[k++] = 1;
+        while(k < nums.size()) nums[k++] = 2;
     }
 };
