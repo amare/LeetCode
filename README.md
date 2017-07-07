@@ -60,7 +60,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |70|[Climbing Stairs][70]|[C++](./070_Climbing_Stairs/climbing_stairs.h)|Easy|2017/03/26|
 |73|[Set Matrix Zeroes][73]|[C++](./073_Set_Matrix_Zeroes/set_matrix_zeroes.h)|Medium|2017/03/27|
 |75|[Sort Colors][75]|[C++](./075_Sort_Colors/sort_colors.h)|Medium|2017/03/27|
-|76|[Minimum Window Substring][76]|[C++](./076_Minimum_Window_Substring/minimum_window_substring.h)|Hard|2017/03/27|
+|76|[Minimum Window Substring][76]&clubs;&spades;&spades;|[C++](./076_Minimum_Window_Substring/minimum_window_substring.h)|Hard|2017/03/27|
 |78|[Subsets][78]|[C++](./078_Subsets/subsets.h)|Medium|2017/03/29|
 |79|[Word Search][79]|[C++](./079_Word_Search/word_search.h)|Medium|2017/03/29|
 |88|[Merge Sorted Array][88]|[C++](./088_Merge_Sorted_Array/merge_sorted_array.h)|Easy|2017/03/29|
@@ -246,6 +246,12 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |342|[Power of Four][342]&spades;|[C++](./342_Power_of_Four/power_of_four.h)|Easy|2017/06/29|
 |400|[Nth Digit][400]&clubs;|[C++](./400_Nth_Digit/nth_digit.h)|Easy|2017/06/29|
 |581|[Shortest Unsorted Continuous Subarray][581]&clubs;|[C++](./581_Shortest_Unsorted_Continuous_Subarray/shortest_unsorted_continuous_subarray.h)|Easy|2017/06/29|
+|295|[Find Median From Data Stream][295]&spades;&clubs;|[C++](./295_Find_Median_From_Data_Stream/find_median_from_data_stream.h)|Hard|2017/07/01|
+|480|[Sliding Window Median][480]&spades;&clubs;|[C++](./480_Sliding_Window_Median/sliding_window_median.h)|Hard|2017/07/01|
+|72|[Edit Distance][72]&spades;&spades;|[C++](./072_Edit_Distance/edit_distance.h)|Hard|2017/07/06|
+|233|[Number of Digit One][233]&clubs;|[C++](./233_Number_of_Digit_One/number_of_digit_one.h)|Hard|2017/07/06|
+|30|[Substring with Concatenation of All Words][30]&clubs;&spades;&spades;|[C++](./030_Substring_with_Concatenation_of_All_Words/substring_with_concatenation_of_all_words.h)|Hard|2017/07/07|
+|438|[Find All Anagrams in a String][438]&spades;&spades;|[C++](./438_Find_All_Anagrams_in_a_String/find_all_anagrams_in_a_string.h)|Easy|2017/07/07|
 <!-- insert flag -->
 
 
@@ -480,3 +486,9 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [342]:https://leetcode.com/problems/power-of-four/#/description
 [400]:https://leetcode.com/problems/nth-digit/#/description
 [581]:https://leetcode.com/problems/shortest-unsorted-continuous-subarray/#/description
+[295]:https://leetcode.com/problems/find-median-from-data-stream/#/description
+[480]:https://leetcode.com/problems/sliding-window-median/#/description
+[72]:https://leetcode.com/problems/edit-distance/#/description
+[233]:https://leetcode.com/problems/number-of-digit-one/#/description
+[30]:https://leetcode.com/problems/substring-with-concatenation-of-all-words/#/description
+[438]:https://leetcode.com/problems/find-all-anagrams-in-a-string/#/description
