@@ -11,6 +11,8 @@ __Solution Step__:
  - Move end to find a valid window.
  - When a valid window is found, move start to find a smaller window.
 
+ - [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/#/description)@Second Method
+
 ======
- - [Solution](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems/11)
+ - [Solution](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems/11)@vinceyuan
  - [template that can solve most 'substring' problems](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems)
