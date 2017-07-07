@@ -27,6 +27,9 @@ public:
         size_t start = 0, end = 0, min_start = 0, min_length = INT_MAX;
         size_t size = s.size(), count = t.size();       // count represents the number of chars of t to be found in s.
         // Move end to find a valid window.
+        // A[c]: the number of character c in t
+        // B[c]: the number of character c in window
+        // hash[c]: A[c] - B[c]
         while(end < size)
         {
             if(hash[s[end]] > 0)    // char s[end] exists in target and the number of s[end]
