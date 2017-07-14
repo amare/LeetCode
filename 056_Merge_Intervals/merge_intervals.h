@@ -1,7 +1,7 @@
 /*
  Author:            cuckoo
  Date:              2017/03/23 11:14:46
- Update:
+ Update:            2017/07/13 18:21:12
  Problem:           Merge Intervals
  Difficulty:        Medium
  Source:            https://leetcode.com/problems/merge-intervals
@@ -24,10 +24,10 @@ struct Interval {
 class Solution {
 public:
     vector<Interval> merge(vector<Interval>& intervals) {
-        return merge_1(intervals);
+        return MergeSecond(intervals);
     }
 
-    vector<Interval> merge_1(vector<Interval>& intervals)
+    vector<Interval> MergeFirst(vector<Interval>& intervals)
     {
         if(intervals.empty()) return {};
         sort(intervals.begin(), intervals.end(), [](const Interval &a, const Interval &b)
@@ -43,6 +43,29 @@ public:
                result.push_back(intervals[i]);
         }
 
+        return result;
+    }
+
+    
+    // update 2017/07/13 18:21:23
+    vector<Interval> MergeSecond(vector<Interval> &intervals)
+    {
+        if(intervals.empty())
+            return {};
+        
+        sort(intervals.begin(), intervals.end(), [](const Interval &lhs, const Interval &rhs)
+             {return lhs.start < rhs.start;});
+        
+        vector<Interval> result;
+        result.push_back(intervals[0]);
+        for(int i = 1; i < intervals.size(); ++i)
+        {
+            if(result.back().end < intervals[i].start)
+                result.push_back(intervals[i]);
+            else
+                result.back().end = std::max(result.back().end, intervals[i].end);
+        }
+        
         return result;
     }
 };

@@ -9,8 +9,8 @@
 __Solution Step__:
  - sort
  - add to result one by one
-
- >[Sort function problems](https://discuss.leetcode.com/topic/3293/sort-function-problems)
+ - [Easy Understand](https://discuss.leetcode.com/topic/20263/c-10-line-solution-easing-understanding)
+    - [Sort function problems](https://discuss.leetcode.com/topic/3293/sort-function-problems)
  transfer self-defined callable object which shall produce a strict weak ordering of the
  elements to sort()
 
