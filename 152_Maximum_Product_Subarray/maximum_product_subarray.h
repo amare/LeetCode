@@ -1,7 +1,7 @@
 /*
  Author:            cuckoo
  Date:              2017/04/07 22:41:06
- Update:            
+ Update:            2017/07/14 21:44:10
  Problem:           Maximum Product Subarray
  Difficulty:        Medium
  Source:            https://leetcode.com/problems/maximum-product-subarray/#/description
@@ -16,10 +16,11 @@ using std::vector;
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        return maxProduct_1(nums);
+        return MaxProductFirst(nums);
     }
     
-    int maxProduct_1(vector<int>& nums)
+    // best one
+    int MaxProductFirst(vector<int>& nums)
     {
         int size = nums.size();
         if(0 == size)
@@ -38,6 +39,34 @@ public:
             
             result = std::max(result, max_current);
         }
+        
+        return result;
+    }
+
+    // update at 2017/07/14 21:46:21
+    int MaxProductSecond(vector<int>& nums)
+    {
+        int n = nums.size();
+        vector<int> max_dp(n, nums[0]);     // max_dp[i] represents the maximum product value in the subarray ending with nums[i]
+        vector<int> min_dp(n, nums[0]);     // min_dp[i] represents the minimum product value in the subarray ending with nums[i] 
+        
+        for(int i = 1; i < n; ++i)
+        {
+            if(nums[i] < 0)
+            {
+                max_dp[i] = std::max(min_dp[i-1] * nums[i], nums[i]);
+                min_dp[i] = std::min(max_dp[i-1] * nums[i], nums[i]);
+            }
+            else
+            {
+                max_dp[i] = std::max(max_dp[i-1] * nums[i], nums[i]);
+                min_dp[i] = std::min(min_dp[i-1] * nums[i], nums[i]);
+            }
+        }
+        
+        int result = nums[0];
+        for(auto num : max_dp)
+            result = std::max(result, num);
         
         return result;
     }
