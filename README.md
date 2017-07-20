@@ -88,7 +88,7 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |51|[N Queens][51]&spades;|[C++](./051_N_Queens/n_queens.h)|Hard|2017/04/04|
 |52|[N Queens II][52]|[C++](./052_N_Queens_II/n_queens_ii.h)|Hard|2017/04/04|
 |169|[Majority Element][169]|[C++](./169_Majority_Element/majority_element.h)|Easy|2017/04/04|
-|215|[Kth Largest Element in an Array][215]|[C++](./215_Kth_Largest_Element_in_an_Array/kth_largest_element_in_an_array.h)|Medium|2017/04/04|
+|215|[Kth Largest Element in an Array]&spade;[215]|[C++](./215_Kth_Largest_Element_in_an_Array/kth_largest_element_in_an_array.h)|Medium|2017/04/04|
 |240|[Search a 2D Matrix II][240]|[C++](./240_Search_a_2D_Matrix_II/search_a_2d_matrix_ii.h)|Medium|2017/04/04|
 |241|[Different Ways to Add Parentheses][241]&clubs;|[C++](./241_Different_Ways_to_Add_Parentheses/different_ways_to_add_parentheses.h)|Medium|2017/04/04|
 |61|[Rotate List][61]|[C++](./061_Rotate_List/rotate_list.h)|Medium|2017/04/05|
@@ -252,6 +252,14 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |233|[Number of Digit One][233]&clubs;|[C++](./233_Number_of_Digit_One/number_of_digit_one.h)|Hard|2017/07/06|
 |30|[Substring with Concatenation of All Words][30]&clubs;&spades;&spades;|[C++](./030_Substring_with_Concatenation_of_All_Words/substring_with_concatenation_of_all_words.h)|Hard|2017/07/07|
 |438|[Find All Anagrams in a String][438]&spades;&spades;|[C++](./438_Find_All_Anagrams_in_a_String/find_all_anagrams_in_a_string.h)|Easy|2017/07/07|
+|212|[Word Search II][212]&clubs;&clubs;|[C++](./212_Word_Search_II/word_search_ii.h)|Hard|2017/07/14|
+|493|[Reverse Pairs][493]&clubs;&clubs;|[C++](./493_Reverse_Pairs/reverse_pairs.h)|Hard|2017/07/14|
+|32|[Longest Valid Parentheses][32]&spades;&clubs;|[C++](./032_Longest_Valid_Parentheses/longest_valid_parentheses.h)|Hard|2017/07/15|
+|572|[Subtree of Another Tree][572]&clubs;|[C++](./572_Subtree_of_Another_Tree/subtree_of_another_tree.h)|Easy|2017/07/15|
+|146|[LRU Cache][146]&spades;&clubs;|[C++](./146_LRU_Cache/lru_cache.h)|Hard|2017/07/20|
+|229|[Majority Element II][229]&spades;&spades;|[C++](./229_Majority_Element_II/majority_element_ii.h)|Medium|2017/07/20|
+|347|[Top K Frequent Elements][347]&spades;&clubs;|[C++](./347_Top_K_Frequent_Elements/top_k_frequent_elements.h)|Medium|2017/07/20|
+|460|[LFU Cache][460]&clubs;&clubs;|[C++](./460_LFU_Cache/lfu_cache.h)|Hard|2017/07/20|
 <!-- insert flag -->
 
 
@@ -492,3 +500,11 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [233]:https://leetcode.com/problems/number-of-digit-one/#/description
 [30]:https://leetcode.com/problems/substring-with-concatenation-of-all-words/#/description
 [438]:https://leetcode.com/problems/find-all-anagrams-in-a-string/#/description
+[212]:https://leetcode.com/problems/word-search-ii/#/description
+[493]:https://leetcode.com/problems/reverse-pairs/#/description
+[32]:https://leetcode.com/problems/longest-valid-parentheses/#/description
+[572]:https://leetcode.com/problems/subtree-of-another-tree/#/description
+[146]:https://leetcode.com/problems/lru-cache/#/description
+[229]:https://leetcode.com/problems/majority-element-ii/#/description
+[347]:https://leetcode.com/problems/top-k-frequent-elements/#/description
+[460]:https://leetcode.com/problems/lfu-cache/#/description
