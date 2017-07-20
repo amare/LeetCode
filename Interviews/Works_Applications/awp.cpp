@@ -18,18 +18,18 @@ typedef long long LL;
 
 LL QuickPow(LL x, LL p)
 {
-    LL ans = 1;
-    x = x % kMod;
+    LL ans = 1, long_x = x;
+    long_x = long_x % kMod;
 
-    while(p != 0)
+    while(p > 0)
     {
-        if(p & 1 == 1)      // p is odd
-            ans = ans * x % kMod;
+        if((p & 1) == 1)      // p is odd
+            ans = ans * long_x % kMod;
         p >>= 1;
-        x = x * x % kMod;
+        long_x = long_x * long_x % kMod;
     }
 
-    return ans;
+    return ans % kMod;
 }
 
 int main()
