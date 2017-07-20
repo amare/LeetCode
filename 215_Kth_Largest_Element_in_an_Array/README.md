@@ -8,6 +8,7 @@
 
 __Solution Step__:
  - using quick-sort solution
+ - [From LintCode](http://www.lintcode.com/zh-cn/problem/kth-largest-element/#)
 
 ======
  - [priority_queue](https://discuss.leetcode.com/topic/15256/4-c-solutions-using-partition-max-heap-priority_queue-and-multiset-respectively)
