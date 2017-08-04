@@ -6,6 +6,9 @@
     Difficulty:        Medium
     Source:            https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
-__Solution Step__:
+#### Solution Step
  - [lengthOfLongestSubstring_6](https://discuss.leetcode.com/topic/30941/here-is-a-10-line-template-that-can-solve-most-substring-problems)
  - lengthOfLongestSubstring_5 is the **best** method
+
+#### Editorial Solution
+ - [Three Approaches](https://leetcode.com/problems/longest-substring-without-repeating-characters/#/solution)
