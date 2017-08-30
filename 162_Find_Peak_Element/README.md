@@ -24,3 +24,6 @@
 #### Discuss
  - [Explanation Using Invariants](https://discuss.leetcode.com/topic/29329/java-solution-and-explanation-using-invariants)
  - [Recursion](https://discuss.leetcode.com/topic/5724/find-the-maximum-by-binary-search-recursion-and-iteration)
+
+#### Editorial Solution
+ - [Three Approaches](https://leetcode.com/problems/find-peak-element/solution/)

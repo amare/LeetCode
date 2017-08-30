@@ -1,7 +1,7 @@
 
     Author:            cuckoo
     Date:              2017/05/02 11:21:55
-    Update:            
+    Update:            2017/07/20 22:36:41
     Problem:           Palindrome Number
     Difficulty:        Easy
     Source:            https://leetcode.com/problems/palindrome-number/#/description

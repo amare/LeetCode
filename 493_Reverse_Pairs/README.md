@@ -1,7 +1,7 @@
 
     Author:            cuckoo
     Date:              2017/07/12 16:48:51
-    Update:            
+    Update:            2017/08/01 14:51:35
     Problem:           Reverse Pairs
     Difficulty:        Hard
     Source:            https://leetcode.com/problems/reverse-pairs/#/description
@@ -27,3 +27,10 @@
             - The in-built operation lower_bound is binary search, hence O(log(n))
             - We perform the operations for n elements, hence the total complexity is O(nlog(n))
         - Space Complexity: O(n). Additional space for bit array and copy array
+
+#### Realted Problom
+ - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)
+ - [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/description/)
+ - [Reverse Pairs](http://www.lintcode.com/en/problem/reverse-pairs/)
+ - [Count of Smaller Number](http://www.lintcode.com/en/problem/count-of-smaller-number/)
+ - [Count of Smaller Number before itself](http://www.lintcode.com/en/problem/count-of-smaller-number-before-itself/)

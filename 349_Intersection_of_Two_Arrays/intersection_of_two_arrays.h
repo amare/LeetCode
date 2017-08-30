@@ -2,7 +2,7 @@
 /*
  Author:            cuckoo
  Date:              2017/05/09 19:35:03
- Update:            
+ Update:            2017/08/04 15:47:17
  Problem:           Intersection of Two Arrays
  Difficulty:        Easy
  Source:            https://leetcode.com/problems/intersection-of-two-arrays/#/description
@@ -15,12 +15,12 @@ using std::vector;
 #include <unordered_set>
 using std::unordered_set;
 
-#include <algorithm>        // for sort()
+#include <algorithm>        // for std::sort(), std::unique()
 
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        return intersectionFirst(nums1, nums2);
+        return IntersectionThird(nums1, nums2);
     }
     
     int FindTarget(vector<int> &nums, int target)
@@ -39,7 +39,7 @@ public:
         
         return -1;
     }
-    vector<int> intersectionFirst(vector<int>& nums1, vector<int>& nums2)
+    vector<int> IntersectionFirst(vector<int>& nums1, vector<int>& nums2)
     {
         int n2 = nums2.size(), n1 = nums1.size();
         if(0 == n1 || 0 == n2) return {};
@@ -64,7 +64,7 @@ public:
     }
 
     // using two set
-    vector<int> intersectionSecond(vector<int>& nums1, vector<int>& nums2)
+    vector<int> IntersectionSecond(vector<int>& nums1, vector<int>& nums2)
     {
         unordered_set<int> hash, intersection_set;
         
@@ -80,6 +80,36 @@ public:
         for(auto num : intersection_set)
             result.push_back(num);
             
+        return result;
+    }
+
+    // update at 2017/08/04 15:47:17
+    // from LintCode
+    // two pointer, std::unique()
+    vector<int> IntersectionThird(vector<int>& nums1, vector<int>& nums2)
+    {
+        std::sort(nums1.begin(), nums1.end());
+        std::sort(nums2.begin(), nums2.end());
+        
+        vector<int> result;
+        int p1 = 0, p2 = 0;
+        while(p1 < nums1.size() && p2 < nums2.size())
+        {
+            if(nums1[p1] < nums2[p2])
+                ++p1;
+            else if(nums1[p1] > nums2[p2])
+                ++p2;
+            else
+            {
+                result.push_back(nums1[p1]);
+                ++p1;
+                ++p2;
+            }
+        }
+        
+        auto last = std::unique(result.begin(), result.end());
+        result.erase(last, result.end());
+        
         return result;
     }
 };

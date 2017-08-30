@@ -260,6 +260,21 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 |229|[Majority Element II][229]&spades;&spades;|[C++](./229_Majority_Element_II/majority_element_ii.h)|Medium|2017/07/20|
 |347|[Top K Frequent Elements][347]&spades;&clubs;|[C++](./347_Top_K_Frequent_Elements/top_k_frequent_elements.h)|Medium|2017/07/20|
 |460|[LFU Cache][460]&clubs;&clubs;|[C++](./460_LFU_Cache/lfu_cache.h)|Hard|2017/07/20|
+|123|[Best Time to Buy and Sell Stock III][123]|[C++](./123_Best_Time_to_Buy_and_Sell_Stock_III/best_time_to_buy_and_sell_stock_iii.h)|Hard|2017/08/30|
+|124|[Binary Tree Maximum Path Sum][124]|[C++](./124_Binary_Tree_Maximum_Path_Sum/binary_tree_maximum_path_sum.h)|Hard|2017/08/30|
+|149|[Max Points on a Line][149]|[C++](./149_Max_Points_on_a_Line/max_points_on_a_line.h)|Hard|2017/08/30|
+|235|[Lowest Common Ancestor of a Binary Search Tree][235]|[C++](./235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree/lowest_common_ancestor_of_a_binary_search_tree.h)|Easy|2017/08/30|
+|236|[Lowest Common Ancestor of a Binary Tree][236]|[C++](./236_Lowest_Common_Ancestor_of_a_Binary_Tree/lowest_common_ancestor_of_a_binary_tree.h)|Medium|2017/08/30|
+|315|[Count of Smaller Numbers After Self][315]|[C++](./315_Count_of_Smaller_Numbers_After_Self/count_of_smaller_numbers_after_self.h)|Hard|2017/08/30|
+|327|[Count of Range Sum][327]|[C++](./327_Count_of_Range_Sum/count_of_range_sum.h)|Hard|2017/08/30|
+|402|[Remove K Digits][402]|[C++](./402_Remove_K_Digits/remove_k_digits.h)|Medium|2017/08/30|
+|459|[Repeated Substring Pattern][459]|[C++](./459_Repeated_Substring_Pattern/repeated_substring_pattern.h)|Easy|2017/08/30|
+|541|[Reverse String II][541]|[C++](./541_Reverse_String_II/reverse_string_ii.h)|Easy|2017/08/30|
+|542|[01 Matrix][542]|[C++](./542_01_Matrix/01_matrix.h)|Medium|2017/08/30|
+|557|[Reverse Words in a String III][557]|[C++](./557_Reverse_Words_in_a_String_III/reverse_words_in_a_string_iii.h)|Easy|2017/08/30|
+|561|[Array Partition I][561]|[C++](./561_Array_Partition_I/array_partition_i.h)|Easy|2017/08/30|
+|567|[Permutation in String][567]|[C++](./567_Permutation_in_String/permutation_in_string.h)|Medium|2017/08/30|
+|628|[Maximum Product of Three Numbers][628]|[C++](./628_Maximum_Product_of_Three_Numbers/maximum_product_of_three_numbers.h)|Easy|2017/08/30|
 <!-- insert flag -->
 
 
@@ -508,3 +523,18 @@ Solutions and resources for LeetCode problems from a C++ begginer.
 [229]:https://leetcode.com/problems/majority-element-ii/#/description
 [347]:https://leetcode.com/problems/top-k-frequent-elements/#/description
 [460]:https://leetcode.com/problems/lfu-cache/#/description
+[123]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
+[124]:https://leetcode.com/problems/binary-tree-maximum-path-sum/#/description
+[149]:https://leetcode.com/problems/max-points-on-a-line/description/
+[235]:https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/#/description
+[236]:https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/#/description
+[315]:https://leetcode.com/problems/count-of-smaller-numbers-after-self/tabs/description/
+[327]:https://leetcode.com/problems/count-of-range-sum/description/
+[402]:https://leetcode.com/problems/remove-k-digits/description/
+[459]:https://leetcode.com/problems/repeated-substring-pattern/description/
+[541]:https://leetcode.com/problems/reverse-string-ii/#/description
+[542]:https://leetcode.com/problems/01-matrix/#/description
+[557]:https://leetcode.com/problems/reverse-words-in-a-string-iii/#/description
+[561]:https://leetcode.com/problems/array-partition-i/tabs/solution
+[567]:https://leetcode.com/problems/permutation-in-string/description/
+[628]:https://leetcode.com/problems/maximum-product-of-three-numbers/description/
